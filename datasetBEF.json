@@ -1,0 +1,966 @@
+[
+      {
+        "instruction": "Donner un sujet de type BEF(Brevet d'Études Fondamentales)",
+        "response": {
+          "sujet": [
+            {
+              "type": "Algèbre",
+              "exercice": "Calculer et donner le résultat sous forme d'une fraction irréductible ou d'un entier :\n$A = \\frac{3}{7} - \\frac{2}{5}$\n$B = \\frac{4}{9} - \\frac{2}{3}$\n$C = \\frac{1}{3} + \\frac{7}{5}$\n$D = \\frac{5}{6} + \\frac{2}{3}$\n$E = \\frac{5x}{4} - \\frac{3x}{7}$\n$F = \\frac{2x}{3} + \\frac{x}{2}$\n$G = \\frac{3}{7} \\times \\frac{4}{5}$\n$H = 1 : \\frac{7}{4}$\n$I = \\frac{2}{7} : (-\\frac{5}{6})$\n$J = \\frac{4x}{5} \\times \\frac{3}{2x}$\n$K = \\frac{5}{3x} \\times \\frac{4x}{7}$",
+              "correction": "Résolution détaillée :\n\n$A = \\frac{3}{7} - \\frac{2}{5} = \\frac{3 \\times 5}{7 \\times 5} - \\frac{2 \\times 7}{5 \\times 7} = \\frac{15}{35} - \\frac{14}{35} = \\frac{1}{35}$\n\n$B = \\frac{4}{9} - \\frac{2}{3} = \\frac{4}{9} - \\frac{2 \\times 3}{3 \\times 3} = \\frac{4}{9} - \\frac{6}{9} = \\frac{-2}{9}$\n\n$C = \\frac{1}{3} + \\frac{7}{5} = \\frac{1 \\times 5}{3 \\times 5} + \\frac{7 \\times 3}{5 \\times 3} = \\frac{5}{15} + \\frac{21}{15} = \\frac{26}{15}$\n\n$D = \\frac{5}{6} + \\frac{2}{3} = \\frac{5}{6} + \\frac{2 \\times 2}{3 \\times 2} = \\frac{5}{6} + \\frac{4}{6} = \\frac{9}{6} = \\frac{3}{2}$\n\n$E = \\frac{5x}{4} - \\frac{3x}{7} = \\frac{5x \\times 7}{4 \\times 7} - \\frac{3x \\times 4}{7 \\times 4} = \\frac{35x}{28} - \\frac{12x}{28} = \\frac{23x}{28}$\n\n$F = \\frac{2x}{3} + \\frac{x}{2} = \\frac{2x \\times 2}{3 \\times 2} + \\frac{x \\times 3}{2 \\times 3} = \\frac{4x}{6} + \\frac{3x}{6} = \\frac{7x}{6}$\n\n$G = \\frac{3}{7} \\times \\frac{4}{5} = \\frac{3 \\times 4}{7 \\times 5} = \\frac{12}{35}$\n\n$H = 1 : \\frac{7}{4} = 1 \\times \\frac{4}{7} = \\frac{4}{7}$\n\n$I = \\frac{2}{7} : (-\\frac{5}{6}) = \\frac{2}{7} \\times (-\\frac{6}{5}) = -\\frac{2 \\times 6}{7 \\times 5} = -\\frac{12}{35}$\n\n$J = \\frac{4x}{5} \\times \\frac{3}{2x} = \\frac{4x \\times 3}{5 \\times 2x} = \\frac{12x}{10x} = \\frac{6}{5}$\n\n$K = \\frac{5}{3x} \\times \\frac{4x}{7} = \\frac{5 \\times 4x}{3x \\times 7} = \\frac{20x}{21x} = \\frac{20}{21}$ (si $x \\ne 0$)"
+            },
+            {
+                "type": "Algèbre",
+                "exercice": "a est un nombre différent de 0. Calculer a dans les cas suivants :\n1) $\\frac{2a}{3}=\\frac{4}{5}$\n2) $\\frac{7a}{4}=\\frac{-3}{2}$\n3) $\\frac{3}{5}=\\frac{6}{a}$\n4) $\\frac{4}{13}=\\frac{2}{3a}$\n5) $\\frac{7a}{2}=\\frac{2}{7}$",
+                "correction": "Résolution détaillée :\n\n1) $\\frac{2a}{3}=\\frac{4}{5} \\Rightarrow 2a \\times 5 = 4 \\times 3 \\Rightarrow 10a = 12 \\Rightarrow a = \\frac{12}{10} = \\frac{6}{5}$\n\n2) $\\frac{7a}{4}=\\frac{-3}{2} \\Rightarrow 7a \\times 2 = -3 \\times 4 \\Rightarrow 14a = -12 \\Rightarrow a = \\frac{-12}{14} = \\frac{-6}{7}$\n\n3) $\\frac{3}{5}=\\frac{6}{a} \\Rightarrow 3a = 6 \\times 5 \\Rightarrow 3a = 30 \\Rightarrow a = \\frac{30}{3} = 10$\n\n4) $\\frac{4}{13}=\\frac{2}{3a} \\Rightarrow 4 \\times 3a = 2 \\times 13 \\Rightarrow 12a = 26 \\Rightarrow a = \\frac{26}{12} = \\frac{13}{6}$\n\n5) $\\frac{7a}{2}=\\frac{2}{7} \\Rightarrow 7a \\times 7 = 2 \\times 2 \\Rightarrow 49a = 4 \\Rightarrow a = \\frac{4}{49}$"
+            },
+            {
+                "type": "Algèbre",
+                "exercice": "Soient $A=\\sqrt{5}+3$ et $B=\\sqrt{5}-3$.\n\n1. Calculer $A^2$, $B^2$ et $A \\times B$.\n\n2. Démontrer que $\\frac{A}{B}+\frac{B}{A}$ est un entier relatif.\n\n3. Écrire au moyen d'un seul radical $\\sqrt{14-6\\sqrt{5}}$.",
+                "correction": "Résolution détaillée :\n\n1. Calcul de $A^2$, $B^2$ et $A \\times B$ :\n\n$A^2 = (\\sqrt{5}+3)^2 = (\\sqrt{5})^2 + 2 \\times \\sqrt{5} \\times 3 + 3^2 = 5 + 6\\sqrt{5} + 9 = 14 + 6\\sqrt{5}$\n\n$B^2 = (\\sqrt{5}-3)^2 = (\\sqrt{5})^2 - 2 \\times \\sqrt{5} \\times 3 + 3^2 = 5 - 6\\sqrt{5} + 9 = 14 - 6\\sqrt{5}$\n\n$A \\times B = (\\sqrt{5}+3)(\\sqrt{5}-3) = (\\sqrt{5})^2 - 3^2 = 5 - 9 = -4$\n\n2. Démonstration que $\\frac{A}{B}+\frac{B}{A}$ est un entier relatif :\n\n$\\frac{A}{B}+\frac{B}{A} = \\frac{A^2 + B^2}{AB} = \\frac{(14 + 6\\sqrt{5}) + (14 - 6\\sqrt{5})}{-4} = \\frac{28}{-4} = -7$\n\nComme $-7$ est un entier relatif, la proposition est démontrée.\n\n3. Écriture de $\\sqrt{14-6\\sqrt{5}}$ au moyen d'un seul radical :\n\nOn remarque que $14 - 6\\sqrt{5}$ ressemble à la forme développée de $(a-b)^2 = a^2 - 2ab + b^2$. Essayons d'identifier $a$ et $b$ :\n\n$14 - 6\\sqrt{5} = 9 - 2 \\times 3 \\times \\sqrt{5} + 5 = (3 - \\sqrt{5})^2$\n\nDonc, $\\sqrt{14-6\\sqrt{5}} = \\sqrt{(3 - \\sqrt{5})^2} = |3 - \\sqrt{5}| = 3 - \\sqrt{5}$\n\n(Car $3 > \\sqrt{5}$, donc $3 - \\sqrt{5} > 0$)"
+            },
+            {
+                "type": "Géométrie",
+                "exercice": "Soit un triangle ABC rectangle et isocèle en A tel que $AB = 6$, l'unité est le cm.\n\n1) Calculer BC.\n\n2) Soit D un point du segment [AB] tel que $AD = \\frac{5}{2}$. On mène par le point D la parallèle à la droite (BC) qui coupe la droite (AC) en E. Calculer AE.\n\n3) On mène par le point D la parallèle à la droite (AC). On mène par le point E la parallèle à (AB). Ces deux droites se coupent en H. Montrer que la droite (AH) est perpendiculaire à (BC) ; en déduire que le segment [AH] est la médiatrice du segment [BC].",
+                "correction": "Résolution détaillée :\n\n1) Calcul de BC :\n\nDans le triangle ABC rectangle en A, d'après le théorème de Pythagore :\n\n$BC^2 = AB^2 + AC^2$\n\nComme le triangle est isocèle en A, $AC = AB = 6$ cm.\n\n$BC^2 = 6^2 + 6^2 = 36 + 36 = 72$ cm²\n\n$BC = \\sqrt{72} = \\sqrt{36 \\times 2} = 6\\sqrt{2}$ cm\n\n2) Calcul de AE :\n\nDans le triangle ABC, la droite (DE) est parallèle à (BC). D'après le théorème de Thalès :\n\n$\\frac{AE}{AC} = \\frac{AD}{AB}$\n\n$AE = \\frac{AC \\times AD}{AB} = \\frac{6 \\times \\frac{5}{2}}{6} = \\frac{5}{2} = 2,5$ cm\n\n3) Nature du quadrilatère ADEH et démonstration de la médiatrice :\n\nOn a construit (DH) parallèle à (AC) et (EH) parallèle à (AB). Donc, ADEH est un parallélogramme. De plus, comme le triangle ABC est rectangle en A, l'angle $\\widehat{BAC}$ est droit. Par conséquent, ADEH est un rectangle.\n\n**Erreur dans la solution originale :** Il est incorrect d'affirmer que DH = AE = AD = EH et que ADEH est un carré. On sait seulement que AD=2.5 et AE=2.5 donc AD=AE. Comme ADEH est un rectangle et AD=AE, alors ADEH est un carré.\n\nComme ADEH est un carré, ses diagonales (AH) et (DE) sont perpendiculaires. Or, (DE) est parallèle à (BC). Donc, (AH) est perpendiculaire à (BC).\n\nDans le triangle ABC isocèle en A, la hauteur issue de A (qui est aussi (AH)) est également la médiatrice de [BC]. Donc, (AH) est la médiatrice de [BC]."
+            }
+          ]
+        }
+    },
+    {
+        "instruction": "Donner un sujet de type BEF(Brevet d'Études Fondamentales) avec 3 exercices en géométrie et un  d’algèbre ",
+        "response": {
+          "sujet": [
+            {
+              "type": "Algèbre",
+              "exercice": "a) Calculer $A=\\frac{5}{3}+\\frac{3}{5}+\\frac{25}{6}$ et $B = \\frac{10^{-3}\\times 12\\times 10^{7}}{3\\times 10^{3}\\times 10^{-4}\\times 8}$. Donner le résultat sous forme décimale.\n\nb) Écrire sous la forme $b\\sqrt{3}$, $C=3\\sqrt{75}-7\\sqrt{27}+4\\sqrt{48}$ où $b$ est un entier.\n\nc) Développer et écrire le plus simplement possible $D=(4+5\\sqrt{2})^{2}+(2\\sqrt{2}-3)(3\\sqrt{2}+7)$.\n\nd) Factoriser $E = (2x+3)^2-(x-5)(2x+3)$ et $F=(5x+8)^{2}-25$.",
+              "correction": "Résolution détaillée :\n\na) Calcul de $A$ et $B$ :\n\n$A = \\frac{5}{3} + \\frac{3}{5} + \\frac{25}{6} = \\frac{50}{30} + \\frac{18}{30} + \\frac{125}{30} = \\frac{193}{30} = 6,4333... \\approx 6,43$ (arrondi au centième)\n\n$B = \\frac{10^{-3}\\times 12\\times 10^{7}}{3\\times 10^{3}\\times 10^{-4}\\times 8} = \\frac{12 \\times 10^{4}}{24 \\times 10^{-1}} = \\frac{1}{2} \\times 10^{5} = 0,5 \\times 10^{5} = 50000$\n\nb) Simplification de $C$ :\n\n$C = 3\\sqrt{75} - 7\\sqrt{27} + 4\\sqrt{48} = 3\\sqrt{25\\times 3} - 7\\sqrt{9\\times 3} + 4\\sqrt{16\\times 3} = 3\\times 5\\sqrt{3} - 7\\times 3\\sqrt{3} + 4\\times 4\\sqrt{3} = 15\\sqrt{3} - 21\\sqrt{3} + 16\\sqrt{3} = 10\\sqrt{3}$\n\nc) Développement et simplification de $D$ :\n\n$D = (4 + 5\\sqrt{2})^2 + (2\\sqrt{2} - 3)(3\\sqrt{2} + 7) = (16 + 40\\sqrt{2} + 50) + (12 - 9\\sqrt{2} + 14\\sqrt{2} - 21) = 66 + 40\\sqrt{2} - 9 + 5\\sqrt{2} = 57 + 45\\sqrt{2}$\n\nd) Factorisation de $E$ et $F$ :\n\n$E = (2x + 3)^2 - (x - 5)(2x + 3) = (2x + 3)[(2x + 3) - (x - 5)] = (2x + 3)(2x + 3 - x + 5) = (2x + 3)(x + 8)$\n\n$F = (5x + 8)^2 - 25 = (5x + 8)^2 - 5^2 = [(5x + 8) - 5][(5x + 8) + 5] = (5x + 3)(5x + 13)$"
+            },
+            {
+                "type": "Géométrie",
+                "exercice": "1) Décomposer 7056 en un produit de facteurs premiers. En déduire la valeur de $\\sqrt{7056}$.\n\n2) Un carré a une aire de 144 cm². Quelle est la longueur de son côté ?\n\n3) La longueur d'un rectangle est le double de sa largeur. L'aire du rectangle est de 338 cm². Quelles sont les dimensions du rectangle ?\n\n4) L'unité de longueur est le centimètre. ABC est un triangle rectangle isocèle en B tel que $AB=4$. Calculer la longueur $AC$.",
+                "correction": "Résolution détaillée :\n\n1) Décomposition de 7056 et calcul de sa racine carrée :\n\n$7056 = 2^4 \\times 3^2 \\times 7^2 = (2^2 \\times 3 \\times 7)^2 = 84^2$\n\n$\\sqrt{7056} = \\sqrt{84^2} = 84$\n\n2) Longueur du côté d'un carré :\n\nSoit $x$ la longueur du côté du carré. Son aire est $x^2$. On a donc :\n\n$x^2 = 144$\n\n$x = \\sqrt{144} = 12$ cm\n\n3) Dimensions d'un rectangle :\n\nSoit $l$ la largeur du rectangle. Sa longueur est $L = 2l$. Son aire est $l \\times L = 2l^2$. On a donc :\n\n$2l^2 = 338$\n\n$l^2 = \\frac{338}{2} = 169$\n\n$l = \\sqrt{169} = 13$ cm\n\n$L = 2l = 2 \\times 13 = 26$ cm\n\nLes dimensions du rectangle sont 13 cm et 26 cm.\n\n4) Longueur de l'hypoténuse d'un triangle rectangle isocèle :\n\nLe triangle ABC est rectangle en B, donc d'après le théorème de Pythagore :\n\n$AC^2 = AB^2 + BC^2$\n\nComme le triangle est isocèle en B, $AB = BC = 4$. Donc :\n\n$AC^2 = 4^2 + 4^2 = 16 + 16 = 32$\n\n$AC = \\sqrt{32} = \\sqrt{16 \\times 2} = 4\\sqrt{2}$ cm"
+            },
+            {
+                "type": "Géométrie",
+                "exercice": "Dans un plan euclidien rapporté à un repère orthonormé $(O; \\vec{i}, \\vec{j})$, on donne les vecteurs $\\vec{u}(-2; 3)$ et $\\vec{v}(1; -2)$.\n\n1) Calculer les coordonnées du vecteur $\\vec{w_1} = \\vec{u} + \\vec{v}$.\n\n2) Calculer les coordonnées du vecteur $\\vec{w_2} = \\vec{u} - \\vec{v}$.\n\n3) Calculer les coordonnées du vecteur $\\vec{w_3} = 3\\vec{v}$.\n\n4) Calculer les coordonnées du vecteur $\\vec{w_4} = -2(3\\vec{u} + 2\\vec{v})$.\n\n5) Soit $\\vec{u_1}(-4; 5)$ et $\\vec{u_2}(5; 4)$ deux vecteurs ; montrer que les vecteurs $\\vec{u_1}$ et $\\vec{u_2}$ sont orthogonaux.",
+                "correction": "Résolution détaillée :\n\n1) $\\vec{w_1} = \\vec{u} + \\vec{v} = (-2 + 1; 3 + (-2)) = (-1; 1)$. Donc, $\\vec{w_1} = -\\vec{i} + \\vec{j}$.\n\n2) $\\vec{w_2} = \\vec{u} - \\vec{v} = (-2 - 1; 3 - (-2)) = (-3; 5)$. Donc, $\\vec{w_2} = -3\\vec{i} + 5\\vec{j}$.\n\n3) $\\vec{w_3} = 3\\vec{v} = (3 \\times 1; 3 \\times (-2)) = (3; -6)$. Donc, $\\vec{w_3} = 3\\vec{i} - 6\\vec{j}$. (Il y a une erreur dans la correction fournie pour w3)\n\n4) $\\vec{w_4} = -2(3\\vec{u} + 2\\vec{v}) = -2(3(-2; 3) + 2(1; -2)) = -2((-6; 9) + (2; -4)) = -2(-4; 5) = (8; -10)$. Donc, $\\vec{w_4} = 8\\vec{i} - 10\\vec{j}$. (Il y a une erreur de signe dans la correction fournie pour w4)\n\n5) Pour montrer que $\\vec{u_1}$ et $\\vec{u_2}$ sont orthogonaux, on calcule leur produit scalaire :\n\n$\\vec{u_1} \\cdot \\vec{u_2} = x_1x_2 + y_1y_2 = (-4 \\times 5) + (5 \\times 4) = -20 + 20 = 0$\n\nComme le produit scalaire est nul, les vecteurs $\\vec{u_1}$ et $\\vec{u_2}$ sont orthogonaux."
+            },
+            {
+                "type": "Géométrie",
+                "exercice": "A) 1. Trouver l'équation de la droite passant par les points $A(2; 5)$ et $B(-1; 3)$, ainsi que par $A'(2;5)$ et $B'(4;3)$.\n\n2. Trouver l'équation de la droite de coefficient directeur $-5$ passant par le point $A(-1; 5)$. La tracer.\n\nB) Le plan est muni d'un repère orthonormé $(O; \\vec{i}, \\vec{j})$. Placer les points $A(4; 2)$, $B(-2; -1)$, $C(4; -1)$, $D(6; -3)$. Démontrer que les points $A$, $C$ et $D$ sont alignés. Écrire une équation de la droite $(AD)$, une équation de la droite $(BC)$.\n\nC) Soit $\\Delta$ la droite d'équation $y = 3x - 1$.\n\n1. Tracer $\\Delta$.\n\n2. Trouver l'équation de la droite $\\Delta_1$ passant par $A(1; 3)$ et parallèle à $\\Delta$. La tracer.\n\n3. Trouver l'équation de la droite $\\Delta_2$ passant par $A(1; 3)$ et orthogonale à $\\Delta$. La tracer. Elle coupe $\\Delta$ en $B$.\n\n4. Trouver les coordonnées de $B$.",
+                "correction": "Résolution détaillée :\n\nA) 1. Équation de la droite $(AB)$ et $(A'B')$:\n\n$(AB)$: Le coefficient directeur est $\\frac{3-5}{-1-2} = \\frac{-2}{-3} = \\frac{2}{3}$. L'équation est de la forme $y = \\frac{2}{3}x + b$. En utilisant le point $A(2; 5)$, on a $5 = \\frac{2}{3}(2) + b$, donc $b = 5 - \\frac{4}{3} = \\frac{11}{3}$. L'équation de $(AB)$ est $y = \\frac{2}{3}x + \\frac{11}{3}$.\n\n$(A'B')$: Le coefficient directeur est $\\frac{3-5}{4-2} = \\frac{-2}{2} = -1$. L'équation est de la forme $y = -x + b$. En utilisant le point $A'(2; 5)$, on a $5 = -2 + b$, donc $b = 7$. L'équation de $(A'B')$ est $y = -x + 7$.\n\n2. Équation de la droite de coefficient directeur $-5$ passant par $A(-1; 5)$:\n\nL'équation est de la forme $y = -5x + b$. En utilisant le point $A(-1; 5)$, on a $5 = -5(-1) + b$, donc $b = 0$. L'équation est $y = -5x$.\n\nB) Alignement des points $A$, $C$ et $D$ et équations de droites:\n\n$\\vec{AC} = (4-4; -1-2) = (0; -3)$\n\n$\\vec{AD} = (6-4; -3-2) = (2; -5)$\n\nCes vecteurs ne sont pas colinéaires, il y a donc une erreur dans l'énoncé. Les points A, C et D ne sont pas alignés. L'équation de (AC) est x=4.\n\n$(AD)$: Le coefficient directeur est $\\frac{-5}{2}$. L'équation est $y - 2 = \\frac{-5}{2}(x - 4)$ soit $y = \\frac{-5}{2}x + 12$.\n\n$(BC)$: Le coefficient directeur est $\\frac{-1-(-1)}{4-(-2)} = 0$. L'équation est $y = -1$.\n\nC) Droites parallèles et orthogonales à $\\Delta$:\n\n1. Tracer $\\Delta$ : C'est une droite de coefficient directeur 3 et d'ordonnée à l'origine -1.\n\n2. $\\Delta_1$ parallèle à $\\Delta$ et passant par $A(1; 3)$ : L'équation est de la forme $y = 3x + b$. En utilisant $A$, on a $3 = 3(1) + b$, donc $b = 0$. L'équation est $y = 3x$.\n\n3. $\\Delta_2$ orthogonale à $\\Delta$ et passant par $A(1; 3)$ : Le coefficient directeur est $-\\frac{1}{3}$. L'équation est $y = -\\frac{1}{3}x + b$. En utilisant $A$, on a $3 = -\\frac{1}{3}(1) + b$, donc $b = \\frac{10}{3}$. L'équation est $y = -\\frac{1}{3}x + \\frac{10}{3}$.\n\n4. Coordonnées de $B$ (intersection de $\\Delta$ et $\\Delta_2$) : On résout le système :\n\n$\\begin{cases} y = 3x - 1 \\\\ y = -\\frac{1}{3}x + \\frac{10}{3} \\end{cases}$\n\n$3x - 1 = -\\frac{1}{3}x + \\frac{10}{3}$\n\n$\\frac{10}{3}x = \\frac{13}{3}$\n\n$x = \\frac{13}{10}$\n\n$y = 3(\\frac{13}{10}) - 1 = \\frac{39}{10} - \\frac{10}{10} = \\frac{29}{10}$\n\nDonc, $B(\\frac{13}{10}; \\frac{29}{10})$ ou $B(1,3; 2,9)$."
+            }
+          ]
+        }
+    },
+    {
+        "instruction": "Donner un sujet de type BEF avec un exercice d’algèbre et 2 en géométrie",
+        "response": {
+          "sujet": [
+            {
+                "type": "Géométrie",
+                "exercice": "Dans un plan muni d'un repère orthonormé $(O; \\vec{i}; \\vec{j})$, placer les points $A(7; 3)$, $B(-2; 6)$, $C(-1; 9)$.\n\n1. Montrer que $\\overrightarrow{BA}$ et $\\overrightarrow{BC}$ sont orthogonaux.\n\n2. Déterminer une équation de la droite $(BC)$.\n\n3. Calculer l'abscisse du point $D$ de cette droite qui a pour ordonnée $-6$.\n\n4. Calculer les distances $DC$ et $DA$. Que peut-on dire du triangle $ACD$ ?",
+                "correction": "Résolution détaillée :\n\n1. Orthogonalité de $\\overrightarrow{BA}$ et $\\overrightarrow{BC}$ :\n\n$\\overrightarrow{BA} = \\overrightarrow{OA} - \\overrightarrow{OB} = (7 - (-2); 3 - 6) = (9; -3)$\n\n$\\overrightarrow{BC} = (-1 - (-2); 9 - 6) = (1; 3)$\n\nLe produit scalaire de $\\overrightarrow{BA}$ et $\\overrightarrow{BC}$ est :\n\n$\\overrightarrow{BA} \\cdot \\overrightarrow{BC} = (9 \\times 1) + (-3 \\times 3) = 9 - 9 = 0$\n\nComme le produit scalaire est nul, les vecteurs $\\overrightarrow{BA}$ et $\\overrightarrow{BC}$ sont orthogonaux. Donc, les droites $(BA)$ et $(BC)$ sont perpendiculaires.\n\n2. Équation de la droite $(BC)$ :\n\nSoit $M(x; y)$ un point quelconque de la droite $(BC)$. Le vecteur $\\overrightarrow{BM}$ a pour coordonnées $(x - (-2); y - 6) = (x + 2; y - 6)$.\n\nLes vecteurs $\\overrightarrow{BM}$ et $\\overrightarrow{BC}$ sont colinéaires, donc leurs coordonnées sont proportionnelles. On peut exprimer cette colinéarité par l'égalité suivante :\n\n$3(x + 2) - 1(y - 6) = 0$\n\n$3x + 6 - y + 6 = 0$\n\n$3x - y + 12 = 0$\n\nDonc, l'équation de la droite $(BC)$ est $3x - y + 12 = 0$ ou encore $y = 3x + 12$.\n\n3. Calcul de l'abscisse de $D$ :\n\nOn sait que $D$ appartient à la droite $(BC)$ et que son ordonnée est $y_D = -6$. On remplace $y$ par $-6$ dans l'équation de $(BC)$ :\n\n$3x_D - (-6) + 12 = 0$\n\n$3x_D + 6 + 12 = 0$\n\n$3x_D + 18 = 0$\n\n$3x_D = -18$\n\n$x_D = -6$\n\nDonc, les coordonnées de $D$ sont $(-6; -6)$.\n\n4. Calcul des distances $DC$ et $DA$ et nature du triangle $ACD$ :\n\n$\\overrightarrow{DC} = (-1 - (-6); 9 - (-6)) = (5; 15)$\n\n$DC = \\sqrt{5^2 + 15^2} = \\sqrt{25 + 225} = \\sqrt{250} = 5\\sqrt{10}$\n\n$\\overrightarrow{DA} = (7 - (-6); 3 - (-6)) = (13; 9)$\n\n$DA = \\sqrt{13^2 + 9^2} = \\sqrt{169 + 81} = \\sqrt{250} = 5\\sqrt{10}$\n\nComme $DC = DA$, le triangle $ACD$ est isocèle en $D$."
+            },
+            {
+                "type": "Algèbre",
+                "exercice": "Écrire sous la forme $a\\sqrt{b}$ chacune des sommes suivantes, où $a$ et $b$ sont des entiers :\n$A=5\\sqrt{8}-2\\sqrt{32}+3\\sqrt{72}$\n$B=3\\sqrt{98}+5\\sqrt{72}-18\\sqrt{8}$\n$C=4\\sqrt{125}-2\\sqrt{20}-4\\sqrt{80}$\n$D=\\sqrt{24}-7\\sqrt{150}-\\sqrt{54}$\n$E=\\frac{3}{2}\\sqrt{52}-\\frac{4}{3}\\sqrt{117}+\\sqrt{13}$",
+                "correction": "Résolution détaillée :\n\n$A=5\\sqrt{8}-2\\sqrt{32}+3\\sqrt{72} = 5\\sqrt{4\\times 2}-2\\sqrt{16\\times 2}+3\\sqrt{36\\times 2} = 5\\times 2\\sqrt{2}-2\\times 4\\sqrt{2}+3\\times 6\\sqrt{2} = 10\\sqrt{2}-8\\sqrt{2}+18\\sqrt{2} = 20\\sqrt{2}$\n\n$B=3\\sqrt{98}+5\\sqrt{72}-18\\sqrt{8} = 3\\sqrt{49\\times 2}+5\\sqrt{36\\times 2}-18\\sqrt{4\\times 2} = 3\\times 7\\sqrt{2}+5\\times 6\\sqrt{2}-18\\times 2\\sqrt{2} = 21\\sqrt{2}+30\\sqrt{2}-36\\sqrt{2} = 15\\sqrt{2}$\n\n$C=4\\sqrt{125}-2\\sqrt{20}-4\\sqrt{80} = 4\\sqrt{25\\times 5}-2\\sqrt{4\\times 5}-4\\sqrt{16\\times 5} = 4\\times 5\\sqrt{5}-2\\times 2\\sqrt{5}-4\\times 4\\sqrt{5} = 20\\sqrt{5}-4\\sqrt{5}-16\\sqrt{5} = 0$\n\n$D=\\sqrt{24}-7\\sqrt{150}-\\sqrt{54} = \\sqrt{4\\times 6}-7\\sqrt{25\\times 6}-\\sqrt{9\\times 6} = 2\\sqrt{6}-7\\times 5\\sqrt{6}-3\\sqrt{6} = 2\\sqrt{6}-35\\sqrt{6}-3\\sqrt{6} = -36\\sqrt{6}$\n\n$E=\\frac{3}{2}\\sqrt{52}-\\frac{4}{3}\\sqrt{117}+\\sqrt{13} = \\frac{3}{2}\\sqrt{4\\times 13}-\\frac{4}{3}\\sqrt{9\\times 13}+\\sqrt{13} = \\frac{3}{2}\\times 2\\sqrt{13}-\\frac{4}{3}\\times 3\\sqrt{13}+ \\sqrt{13} = 3\\sqrt{13}-4\\sqrt{13}+\\sqrt{13} = 0$"
+            },
+            {
+                "type": "Géométrie",
+                "exercice": "Le plan est muni d'un repère orthonormé $(O; \\vec{i}; \\vec{j})$. On donne les points $A(-2; 4)$, $B(-4; 2)$, $C(-4; 6)$.\n\n1. Placer les points $A$, $B$ et $C$ dans ce plan.\n\n2. Construire l'image du triangle $ABC$ par la translation de vecteur $\\overrightarrow{AB}$.",
+                "correction": "Résolution détaillée :\n\n1. Placement des points $A$, $B$ et $C$ : Il s'agit de placer les points dans le repère orthonormé en utilisant leurs coordonnées respectives.\n\n2. Construction de l'image du triangle $ABC$ par la translation de vecteur $\\overrightarrow{AB}$ :\n\n$\\overrightarrow{AB} = \\overrightarrow{OB} - \\overrightarrow{OA} = (-4 - (-2); 2 - 4) = (-2; -2)$\n\nSoient $A'$, $B'$ et $C'$ les images respectives de $A$, $B$ et $C$ par la translation de vecteur $\\overrightarrow{AB}$. On a :\n\n$\\overrightarrow{AA'} = \\overrightarrow{AB}$, donc $\\overrightarrow{OA'} = \\overrightarrow{OA} + \\overrightarrow{AB} = (-2 + (-2); 4 + (-2)) = (-4; 2)$\n\n$\\overrightarrow{BB'} = \\overrightarrow{AB}$, donc $\\overrightarrow{OB'} = \\overrightarrow{OB} + \\overrightarrow{AB} = (-4 + (-2); 2 + (-2)) = (-6; 0)$\n\n$\\overrightarrow{CC'} = \\overrightarrow{AB}$, donc $\\overrightarrow{OC'} = \\overrightarrow{OC} + \\overrightarrow{AB} = (-4 + (-2); 6 + (-2)) = (-6; 4)$\n\nLes coordonnées des points images sont donc : $A'(-4; 2)$, $B'(-6; 0)$, et $C'(-6; 4)$.\n\nIl suffit alors de placer ces points dans le repère pour construire le triangle $A'B'C'$, image du triangle $ABC$ par la translation de vecteur $\\overrightarrow{AB}$."
+              }
+
+          ]
+        }
+    },
+    {
+        "instruction": "Générer un sujet de BEF contenant des exercices d'algèbre et de géométrie.",
+        "response": {
+          "sujet": [
+               {
+                "type": "Algèbre",
+                "exercice": "On donne les fonctions polynômes $f$ et $g$ définies dans $\\mathbb{R}$ par :\n\n$f(x) = (12x^2 - 3)(x + 3) + (x^2 - 9)(2x - 1)$\n\n$g(x) = 4x^3 - 3$\n\na. Factoriser $f(x)$ et $g(x)$.\n\nb. Chercher l'ensemble de définition de la fonction rationnelle $Q$ de $\\mathbb{R}$ vers $\\mathbb{R}$ définie par : $Q(x) = \\frac{f(x)}{g(x)}$.\n\nc. Simplifier l'écriture de $Q(x)$ sur son ensemble de définition.",
+                "correction": "Résolution détaillée :\n\na. Factorisation de $f(x)$ :\n\n$f(x) = (12x^2 - 3)(x + 3) + (x^2 - 9)(2x - 1)$\n\n$f(x) = 3(4x^2 - 1)(x + 3) + (x - 3)(x + 3)(2x - 1)$\n\n$f(x) = 3(2x - 1)(2x + 1)(x + 3) + (x - 3)(x + 3)(2x - 1)$\n\n$f(x) = (2x - 1)(x + 3)[3(2x + 1) + (x - 3)]$\n\n$f(x) = (2x - 1)(x + 3)(6x + 3 + x - 3)$\n\n$f(x) = (2x - 1)(x + 3)(7x)$\n\nFactorisation de $g(x)$ :\n\nIl y a une erreur dans l'énoncé ou dans la correction fournie. $g(x) = 4x^3 - 3$ ne se factorise pas simplement avec des nombres rationnels. Il faudrait utiliser des racines cubiques. Si $g(x)$ était $4x^3-x$ alors on aurait $g(x)=x(4x^2-1)=x(2x-1)(2x+1)$. Je vais continuer la correction en considérant que $g(x)$ est $4x^3-x$ comme dans la correction fournie.\n\n$g(x) = x(4x^2 - 1)$\n\n$g(x) = x(2x - 1)(2x + 1)$\n\nb. Ensemble de définition de $Q(x)$ :\n\n$Q(x) = \\frac{f(x)}{g(x)} = \\frac{(2x - 1)(x + 3)(7x)}{x(2x - 1)(2x + 1)}$\n\n$Q(x)$ est définie si et seulement si le dénominateur est non nul, c'est-à-dire $x(2x - 1)(2x + 1) \\neq 0$. Cela signifie que $x \\neq 0$, $x \\neq \\frac{1}{2}$ et $x \\neq -\\frac{1}{2}$.\n\nDonc, $D_Q = \\mathbb{R} \\setminus \\{-\\frac{1}{2}; 0; \\frac{1}{2}\\}$\n\nc. Simplification de $Q(x)$ :\n\nPour $x \\in D_Q$, on peut simplifier l'expression de $Q(x)$ :\n\n$Q(x) = \\frac{(2x - 1)(x + 3)(7x)}{x(2x - 1)(2x + 1)} = \\frac{7(x + 3)}{2x + 1}$\n"
+              },
+              {
+                "type": "Algèbre",
+                "exercice": "On considère deux applications $f$ et $g$ de $\\mathbb{R}$ dans $\\mathbb{R}$ définies par :\n\n$f(x)=(5x+7)(1-2x)-(4x-2)(x-5)$ ;\n\n$g(x)=(4x+3)(1-2x)$\n\n1. Développer, réduire et ordonner $f(x)$ et $g(x)$ suivant les puissances décroissantes de $x$.\n\n2. Factoriser $f(x)$.\n\n3. Résoudre dans $\\mathbb{R}$ les équations $f(x) = 0$ et $g(x)=0$.\n\n4. On donne la fonction rationnelle $h$ telle que : $h(x) = \\frac{g(x)}{f(x)}$\n\n   a. Déterminer le domaine de définition de la fonction $h(x)$.\n\n   b. Simplifier $h(x)$ puis calculer $h(0)$ et $h(1)$.\n\n   c. Résoudre dans $\\mathbb{R}$ l'équation $h(x)=1$",
+                "correction": "Résolution détaillée :\n\n1. Développement, réduction et ordonnancement :\n\n$f(x) = 5x - 10x^2 + 7 - 14x - (4x^2 - 20x - 2x + 10)$\n\n$f(x) = -10x^2 - 9x + 7 - 4x^2 + 22x - 10$\n\n$f(x) = -14x^2 + 13x - 3$\n\n$g(x) = 4x - 8x^2 + 3 - 6x$\n\n$g(x) = -8x^2 - 2x + 3$\n\n2. Factorisation de $f(x)$ :\n\n$f(x) = -14x^2 + 13x - 3$\n\nOn cherche deux nombres dont le produit est $(-14)(-3) = 42$ et la somme est $13$. Ces nombres sont $6$ et $7$.\n\n$f(x) = -14x^2 + 6x + 7x - 3$\n\n$f(x) = -2x(7x - 3) + 1(7x - 3)$\n\n$f(x) = (1 - 2x)(7x - 3)$\n\n3. Résolution des équations :\n\n$f(x) = 0 \\Leftrightarrow (1 - 2x)(7x - 3) = 0$\n\n$1 - 2x = 0$ ou $7x - 3 = 0$\n\n$x = \\frac{1}{2}$ ou $x = \\frac{3}{7}$\n\n$S = \\{\\frac{3}{7}; \\frac{1}{2}\\}$\n\n$g(x) = 0 \\Leftrightarrow -8x^2 - 2x + 3 = 0$\n\nOn utilise le discriminant : $\\Delta = (-2)^2 - 4(-8)(3) = 4 + 96 = 100$\n\n$x_1 = \\frac{2 - 10}{-16} = \\frac{-8}{-16} = \\frac{1}{2}$\n\n$x_2 = \\frac{2 + 10}{-16} = \\frac{12}{-16} = -\\frac{3}{4}$\n\n$S = \\{-\\frac{3}{4}; \\frac{1}{2}\\}$\n\n4. Fonction rationnelle $h$ :\n\na. Domaine de définition : $h(x)$ est définie si $f(x) \\neq 0$, donc $D_h = \\mathbb{R} \\setminus \\{\\frac{3}{7}; \\frac{1}{2}\\}$\n\nb. Simplification et calculs :\n\n$h(x) = \\frac{-8x^2 - 2x + 3}{-14x^2 + 13x - 3} = \\frac{(1-2x)(4x+3)}{(1-2x)(7x-3)}$\n\nPuisque $x$ est différent de 1/2, on peut simplifier par $(1-2x)$.\n\n$h(x) = \\frac{4x+3}{7x-3}$\n\n$h(0) = \\frac{3}{-3} = -1$\n\n$h(1) = \\frac{4+3}{7-3} = \\frac{7}{4}$\n\nc. Résolution de $h(x) = 1$ :\n\n$\\frac{4x+3}{7x-3} = 1$\n\n$4x + 3 = 7x - 3$\n\n$6 = 3x$\n\n$x = 2$\n\n$S = \\{2\\}$"
+              },
+              {
+                "type": "Algèbre",
+                "exercice": "On considère les deux fonctions polynômes suivantes :\n\n$f(x) = (x - 1)(2x - 4) + (2 - x)(x - 3)$\n\n$g(x) = 4(x - 2)^2 - (x - 2)^2$\n\n1. Développer et ordonner suivant les puissances décroissantes de $x$ $f(x)$ et $g(x)$.\n\n2. Factoriser $f(x)$ et $g(x)$.\n\n3. Résoudre les équations suivantes : $f(x) = 0$, $g(x) = 0$, $f(x) + g(x) = 0$.\n\n4. Calculer : $f(2)$, $f(\\sqrt{2})$, $g(2)$ et $g(0)$.\n\n5. Soit la fonction définie par $h(x) = \\frac{3(x - 2)(x + 1)}{3(x - 2)(x - 2)}$.\n\n   a. Déterminer le domaine de définition de $h$.\n\n   b. Simplifier $h(x)$ pour tout $x$ élément de ce domaine.\n\n   c. Calculer $h(-1)$, $h(0)$, $h(\\sqrt{3})$.\n\n   d. Résoudre dans le domaine de définition de $h$ l'équation $h(x) = \\frac{1}{3}$.\n\n   e. Déterminer l'encadrement de $h(\\sqrt{3})$ à $10^{-2}$ près. On rappelle : $1,73 < \\sqrt{3} < 1,74$.",
+                "correction": "Résolution détaillée :\n\n1. Développement et ordonnancement :\n\n$f(x) = 2x^2 - 4x - 2x + 4 + 2x - 6 - x^2 + 3x$\n\n$f(x) = x^2 - x - 2$\n\n$g(x) = 4(x^2 - 4x + 4) - (x^2 - 4x + 4)$\n\n$g(x) = 4x^2 - 16x + 16 - x^2 + 4x - 4$\n\n$g(x) = 3x^2 - 12x + 12$\n\n2. Factorisation :\n\n$f(x) = x^2 - x - 2 = (x - 2)(x + 1)$\n\n$g(x) = 3(x^2 - 4x + 4) = 3(x - 2)^2$\n\n3. Résolution des équations :\n\n$f(x) = 0 \\Leftrightarrow (x - 2)(x + 1) = 0 \\Leftrightarrow x = 2$ ou $x = -1$. $S = \\{-1; 2\\}$\n\n$g(x) = 0 \\Leftrightarrow 3(x - 2)^2 = 0 \\Leftrightarrow x = 2$. $S = \\{2\\}$\n\n$f(x) + g(x) = 0 \\Leftrightarrow x^2 - x - 2 + 3x^2 - 12x + 12 = 0$\n\n$4x^2 - 13x + 10 = 0$\n\n$\\Delta = (-13)^2 - 4(4)(10) = 169 - 160 = 9$\n\n$x_1 = \\frac{13 - 3}{8} = \\frac{10}{8} = \\frac{5}{4}$\n\n$x_2 = \\frac{13 + 3}{8} = \\frac{16}{8} = 2$\n\n$S = \\{\\frac{5}{4}; 2\\}$\n\n4. Calculs :\n\n$f(2) = (2 - 2)(2 + 1) = 0$\n\n$f(\\sqrt{2}) = (\\sqrt{2} - 2)(\\sqrt{2} + 1) = 2 + \\sqrt{2} - 2\\sqrt{2} - 2 = -\\sqrt{2}$\n\n$g(2) = 3(2 - 2)^2 = 0$\n\n$g(0) = 3(0 - 2)^2 = 3(4) = 12$\n\n5. Fonction $h(x)$ :\n\na. Domaine de définition : $h(x)$ est définie si et seulement si le dénominateur est non nul, donc $3(x - 2)(x - 2) \\neq 0$, ce qui signifie $x \\neq 2$. $D_h = \\mathbb{R} \\setminus \\{2\\}$\n\nb. Simplification : Pour $x \\neq 2$, $h(x) = \\frac{3(x - 2)(x + 1)}{3(x - 2)(x - 2)} = \\frac{x + 1}{x - 2}$\n\nc. Calculs :\n\n$h(-1) = \\frac{-1 + 1}{-1 - 2} = \\frac{0}{-3} = 0$\n\n$h(0) = \\frac{0 + 1}{0 - 2} = -\\frac{1}{2}$\n\n$h(\\sqrt{3}) = \\frac{\\sqrt{3} + 1}{\\sqrt{3} - 2}$\n\n$h(\\sqrt{3}) = \frac{(\\sqrt{3} + 1)(\\sqrt{3} + 2)}{(\\sqrt{3} - 2)(\\sqrt{3} + 2)} = \frac{3 + 2\\sqrt{3} + \\sqrt{3} + 2}{3 - 4} = \frac{5 + 3\\sqrt{3}}{-1} = -5 - 3\\sqrt{3}$\n\nd. Résolution de $h(x) = \\frac{1}{3}$ :\n\n$\\frac{x + 1}{x - 2} = \\frac{1}{3}$\n\n$3(x + 1) = x - 2$\n\n$3x + 3 = x - 2$\n\n$2x = -5$\n\n$x = -\\frac{5}{2} = -2,5$\n\n$S = \\{-\\frac{5}{2}\\}$\n\ne. Encadrement de $h(\\sqrt{3})$ :\n\n$h(\\sqrt{3}) = -5 - 3\\sqrt{3}$\n\n$1,73 < \\sqrt{3} < 1,74$\n\n$3(1,73) < 3\\sqrt{3} < 3(1,74)$\n\n$5,19 < 3\\sqrt{3} < 5,22$\n\n$-5 - 5,22 < -5 - 3\\sqrt{3} < -5 - 5,19$\n\n$-10,22 < h(\\sqrt{3}) < -10,19$"
+              },
+            {
+              "type": "Géométrie",
+              "exercice": "Dans le plan rapporté à un repère orthonormé $(O; \\vec{i}; \\vec{j})$, on considère les points $I(-5; 3)$, $J(2; 2)$, $K(1; -5)$.\n\n1. a) Déterminer les coordonnées des vecteurs $\\overrightarrow{IJ}$ et $\\overrightarrow{JK}$.\n\n   b) En déduire que $IJ = JK$.\n\n   c) Démontrer que les vecteurs $\\overrightarrow{IJ}$ et $\\overrightarrow{JK}$ sont orthogonaux.\n\n   d) Déduire la nature exacte du triangle $IJK$.\n\n2. Soit $Q$ le milieu de $[IK]$ et $P$ le symétrique de $J$ par rapport à $Q$.\n\n   a) Déterminer les coordonnées de $Q$.\n\n   b) En déduire que $P$ a pour coordonnées le couple $(-6; -4)$.\n\n   c) En déduire la nature exacte du quadrilatère $IJKP$.\n\n3. a) Montrer que les triangles $IQP$ et $JQK$ sont superposables.\n\n   b) Déterminer les coordonnées et le sinus de l'angle $\\widehat{IJK}$.\n\n   c) En déduire la mesure en degrés de cet angle.",
+              "correction": "Résolution détaillée :\n\n1. a) $\\overrightarrow{IJ} = (2 - (-5); 2 - 3) = (7; -1)$. $\\overrightarrow{JK} = (1 - 2; -5 - 2) = (-1; -7)$.\n\n   b) $IJ = \\sqrt{7^2 + (-1)^2} = \\sqrt{50} = 5\\sqrt{2}$. $JK = \\sqrt{(-1)^2 + (-7)^2} = \\sqrt{50} = 5\\sqrt{2}$. Donc $IJ = JK$.\n\n   c) $\\overrightarrow{IJ} \\cdot \\overrightarrow{JK} = (7 \\times -1) + (-1 \\times -7) = -7 + 7 = 0$. Les vecteurs sont orthogonaux.\n\n   d) Le triangle $IJK$ est isocèle en $J$ car $IJ = JK$. De plus, comme $\\overrightarrow{IJ}$ et $\\overrightarrow{JK}$ sont orthogonaux, le triangle est rectangle en $J$. $IJK$ est donc un triangle rectangle isocèle en $J$.\n\n2. a) $Q(\\frac{-5 + 1}{2}; \\frac{3 + (-5)}{2}) = Q(-2; -1)$.\n\n   b) $x_P = 2x_Q - x_J = 2(-2) - 2 = -6$. $y_P = 2y_Q - y_J = 2(-1) - 2 = -4$. Donc $P(-6; -4)$.\n\n   c) $IJKP$ est un rectangle car ses côtés opposés sont parallèles (car issus de symétrie) et il possède un angle droit (l'angle en J).\n\n3. a) $Q$ est le milieu de $[IK]$ et $[PJ]$, donc les diagonales de $IJKP$ se coupent en leur milieu. De plus $IJKP$ est un rectangle, donc les triangles $IQP$ et $JQK$ sont superposables.\n\n   b) $\\overrightarrow{IK} = (1 - (-5); -5 - 3) = (6; -8)$. $IK = \\sqrt{6^2 + (-8)^2} = \\sqrt{100} = 10$.\n\n$\\cos(\\widehat{IJK}) = \\frac{\\overrightarrow{IJ} \\cdot \\overrightarrow{JK}}{IJ \\times JK} = 0$, car le produit scalaire est nul, mais on cherche le sinus.\n\n$\\sin(\\widehat{IJK}) = \\frac{IK}{2*IJ} = \frac{10}{2*5\\sqrt{2}} = \frac{10}{10\\sqrt{2}} = \frac{\\sqrt{2}}{2}$.\n\n   c) Comme $\\sin(\\widehat{IJK}) = \\frac{\\sqrt{2}}{2}$, l'angle $\\widehat{IJK}$ mesure $45°$."
+            }
+          ]
+        }
+      },
+      {
+        "instruction": "Génére moi un sujet de type BEF ",
+        "response": {
+          "sujet": [
+            {
+                "type": "Algèbre",
+                "exercice": "Soient les fonctions polynômes $f$ et $g$ définies par :\n\n$f(x) = (2x - 1)(5x + 4) - (4x^2 - 4x + 1)$\n\n$g(x) = (2x + 3)^2 - (x + 2)^2$\n\n1. Mettre sous forme d'un produit de facteurs du premier degré $f(x)$ et $g(x)$.\n\n2. Développer, réduire et ordonner $f(x)$ et $g(x)$ suivant les puissances décroissantes de $x$.\n\n3. Soit $h$ la fonction rationnelle définie par $h(x) = \\frac{f(x)}{g(x)}$.\n\n   a. Donner le domaine de définition de $h$.\n\n   b. Simplifier $h$.\n\n4. Soit une équation $g$ définie par : $g : \\mathbb{R} \\setminus \\{\\frac{5}{3}\\} \\rightarrow \\mathbb{R}$, $g(x) = \\frac{1 - 2x}{5 - 3x}$.\n\n   a. Calculer $g(\\frac{3}{2})$, $g(1 - \\sqrt{3})$ et donner le résultat sous forme d'un quotient dont le dénominateur sera entier.\n\n   b. Résoudre dans $\\mathbb{R}$ l'équation $g(x) = \\frac{3}{5}$.",
+                "correction": "Résolution détaillée :\n\n1. Factorisation :\n\n$f(x) = (2x - 1)(5x + 4) - (2x - 1)^2$\n\n$f(x) = (2x - 1)[(5x + 4) - (2x - 1)]$\n\n$f(x) = (2x - 1)(3x + 5)$\n\n$g(x) = (2x + 3)^2 - (x + 2)^2$\n\n$g(x) = [(2x + 3) - (x + 2)][(2x + 3) + (x + 2)]$\n\n$g(x) = (x + 1)(3x + 5)$\n\n2. Développement, réduction et ordonnancement :\n\n$f(x) = 10x^2 + 8x - 5x - 4 - (4x^2 - 4x + 1)$\n\n$f(x) = 6x^2 + 7x - 5$\n\n$g(x) = (4x^2 + 12x + 9) - (x^2 + 4x + 4)$\n\n$g(x) = 3x^2 + 8x + 5$\n\n3. Fonction rationnelle $h$ :\n\na. Domaine de définition : $h(x) = \\frac{f(x)}{g(x)} = \\frac{(2x-1)(3x+5)}{(x+1)(3x+5)}$\n\n$h$ est définie si $g(x) \\neq 0$ donc $(x+1)(3x+5)\\neq 0$ ce qui donne $x \\neq -1$ et $x \\neq -\\frac{5}{3}$. Donc $D_h = \\mathbb{R} \\setminus \\{-1; -\\frac{5}{3}\\}$\n\nb. Simplification : $h(x) = \\frac{2x-1}{x+1}$\n\n4. Fonction $g$ (Attention, il y a une confusion avec la fonction $g$ de l'exercice précédent. On va l'appeler $k$ pour plus de clarté) : $k(x) = \\frac{1-2x}{5-3x}$\n\na. Calculs :\n\n$k(\\frac{3}{2}) = \\frac{1 - 2(\\frac{3}{2})}{5 - 3(\\frac{3}{2})} = \\frac{1 - 3}{5 - \\frac{9}{2}} = \\frac{-2}{\\frac{1}{2}} = -4$\n\n$k(1 - \\sqrt{3}) = \\frac{1 - 2(1 - \\sqrt{3})}{5 - 3(1 - \\sqrt{3})} = \\frac{1 - 2 + 2\\sqrt{3}}{5 - 3 + 3\\sqrt{3}} = \\frac{-1 + 2\\sqrt{3}}{2 + 3\\sqrt{3}} = \\frac{(-1 + 2\\sqrt{3})(2 - 3\\sqrt{3})}{(2 + 3\\sqrt{3})(2 - 3\\sqrt{3})} = \\frac{-2 + 3\\sqrt{3} + 4\\sqrt{3} - 18}{4 - 27} = \\frac{-20 + 7\\sqrt{3}}{-23} = \\frac{20 - 7\\sqrt{3}}{23}$\n\nb. Résolution de $k(x) = \\frac{3}{5}$ :\n\n$\\frac{1 - 2x}{5 - 3x} = \\frac{3}{5}$\n\n$5(1 - 2x) = 3(5 - 3x)$\n\n$5 - 10x = 15 - 9x$\n\n$-10 = x$\n\n$S = \\{-10\\}$"
+              },
+              {
+                "type": "Algèbre",
+                "exercice": "On considère deux fonctions polynômes $f$ et $g$ définies par : $f(x) = x^2 - 2x + 1$ et $g(x) = (x - 1)(2x + 1) + 4(x - 1)$.\n\n1. Développer, réduire et ordonner suivant les puissances décroissantes de $x$ $g(x)$.\n\n2. Factoriser les expressions $f(x)$ et $g(x)$.\n\n3. On pose $h(x) = \\frac{f(x)}{g(x)}$.\n\n   a. Pour quelles valeurs de $x$ $h(x)$ est-elle définie ?\n\n   b. Simplifier $h(x)$ sur son domaine de définition.\n\n4. Sachant que $1,732 < \\sqrt{3} < 1,733$\n\n   a. Calculer $h(\\sqrt{3})$\n\n   b. Déterminer un encadrement de $h(\\sqrt{3})$ par deux nombres décimaux consécutifs d'ordre deux.",
+                "correction": "Résolution détaillée :\n\n1. Développement, réduction et ordonnancement de $g(x)$ :\n\n$g(x) = (x - 1)(2x + 1) + 4(x - 1)$\n\n$g(x) = 2x^2 + x - 2x - 1 + 4x - 4$\n\n$g(x) = 2x^2 + 3x - 5$\n\n2. Factorisation de $f(x)$ et $g(x)$ :\n\n$f(x) = x^2 - 2x + 1 = (x - 1)(x - 1) = (x - 1)^2$\n\n$g(x) = 2x^2 + 3x - 5 = (x - 1)(2x + 5)$\n\n3. Fonction rationnelle $h(x) = \\frac{f(x)}{g(x)}$ :\n\na. Domaine de définition : $h(x) = \\frac{(x - 1)^2}{(x - 1)(2x + 5)}$\n\n$h(x)$ est définie si et seulement si $g(x) \\neq 0$, c'est-à-dire $(x - 1)(2x + 5) \\neq 0$. Cela implique $x \\neq 1$ et $x \\neq -\\frac{5}{2}$. Donc, le domaine de définition est $D_h = \\mathbb{R} \\setminus \\{-\\frac{5}{2}; 1\\}$.\n\nb. Simplification de $h(x)$ sur son domaine de définition :\n\nPour $x \\neq 1$, on peut simplifier : $h(x) = \\frac{(x - 1)(x - 1)}{(x - 1)(2x + 5)} = \\frac{x - 1}{2x + 5}$\n\n4. Calcul et encadrement de $h(\\sqrt{3})$ :\n\na. Calcul de $h(\\sqrt{3})$ :\n\n$h(\\sqrt{3}) = \\frac{\\sqrt{3} - 1}{2\\sqrt{3} + 5}$\n\nPour rendre le dénominateur rationnel, on multiplie par le conjugué : \n\n$h(\\sqrt{3}) = \\frac{(\\sqrt{3} - 1)(5 - 2\\sqrt{3})}{(2\\sqrt{3} + 5)(5 - 2\\sqrt{3})} = \\frac{5\\sqrt{3} - 6 - 5 + 2\\sqrt{3}}{25 - 12} = \\frac{7\\sqrt{3} - 11}{13}$\n\n$h(\\sqrt{3}) = \\frac{7\\sqrt{3} - 11}{13} \\approx \\frac{7(1.732) - 11}{13} \\approx \\frac{12.124 - 11}{13} \\approx \\frac{1.124}{13} \\approx 0.0865$ (avec la valeur basse de √3)\n$h(\\sqrt{3}) = \\frac{7\\sqrt{3} - 11}{13} \\approx \\frac{7(1.733) - 11}{13} \\approx \frac{12.131 - 11}{13} \\approx \\frac{1.131}{13} \\approx 0.0870$ (avec la valeur haute de √3)\n\nb. Encadrement de $h(\\sqrt{3})$ par deux nombres décimaux consécutifs d'ordre deux :\n\n$0,0865 < h(\\sqrt{3}) < 0,0870$\n\nEn arrondissant au centième près par défaut et par excès, on obtient l'encadrement : $0,08 < h(\\sqrt{3}) < 0,09$."
+              },
+              {
+                "type": "Géométrie",
+                "exercice": "Exercice II : Un plan est muni d'un repère orthonormé (O, i, j). On donne A(1 ; -1), B(-1 ; -2), C(-2 ; 2).\n\n1. Déterminer le couple de coordonnées du point G pour que : GA + 2GB + GC = 0 (vecteurs)\n2. Déterminer le couple de coordonnées du point D pour que : BD = BA + BC (vecteurs)\n3. Démontrer que BG et BD soient colinéaires. Justifier que les points B, G et D sont alignés.",
+                "correction": "Résolution :\n1. Les coordonnées de G sont (-3/4 ; -3/4).\n2. Les coordonnées de D sont (0 ; 3).\n3. Les vecteurs BG et BD sont colinéaires (déterminant nul). Donc les points B, G et D sont alignés."
+              }
+          ]
+        }
+      },
+      {
+        "instruction": "je veux un sujet de BEF ",
+        "response": {
+          "sujet": [
+            {
+                "type": "Algèbre",
+                "exercice": "On considère les fonctions polynômes $f$, $g$ et $h$ de $\\mathbb{R}$ dans $\\mathbb{R}$ définies par :\n\n$f(x) = (2x - 5)^2 - (3 - x)^2$\n\n$g(x) = (x + 3)(x - 2) - h(x)$\n\n$h(x) = ax^2 + bx + c$\n\n1. a) Déterminer les réels $a$, $b$ et $c$ de la fonction $h(x)$ sachant que $h(0) = 4$, $h(2) = 0$ et $h(-2) = -16$.\n\nb) Écrire la fonction polynôme $h(x)$.\n\n2. Développer, réduire et ordonner les polynômes $f$ et $g$.\n\n3. Écrire $f(x)$ sous la forme d'un produit de facteurs du premier degré.",
+                "correction": "Résolution détaillée :\n\n1. Détermination de $h(x)$ :\n\na) Détermination de $a$, $b$ et $c$ :\n\n$h(0) = 4 \\Rightarrow a(0)^2 + b(0) + c = 4 \\Rightarrow c = 4$\n\n$h(2) = 0 \\Rightarrow a(2)^2 + b(2) + 4 = 0 \\Rightarrow 4a + 2b + 4 = 0$\n\n$h(-2) = -16 \\Rightarrow a(-2)^2 + b(-2) + 4 = -16 \\Rightarrow 4a - 2b + 4 = -16$\n\nOn a donc le système d'équations :\n\n$\\begin{cases} c = 4 \\\\ 4a + 2b + 4 = 0 \\\\ 4a - 2b + 4 = -16 \\end{cases}$\n\nEn simplifiant les deux dernières équations, on obtient :\n\n$\\begin{cases} c = 4 \\\\ 2a + b = -2 \\\\ 2a - b = -10 \\end{cases}$\n\nEn additionnant les deux dernières équations, on obtient $4a = -12$, donc $a = -3$. En remplaçant $a$ par $-3$ dans $2a + b = -2$, on obtient $-6 + b = -2$, donc $b = 4$.\n\nConclusion : $a = -3$, $b = 4$ et $c = 4$.\n\nb) Expression de $h(x)$ :\n\n$h(x) = -3x^2 + 4x + 4$\n\n2. Développement, réduction et ordonnancement de $f(x)$ et $g(x)$ :\n\n$f(x) = (2x - 5)^2 - (3 - x)^2 = (4x^2 - 20x + 25) - (9 - 6x + x^2) = 4x^2 - 20x + 25 - 9 + 6x - x^2 = 3x^2 - 14x + 16$\n\n$g(x) = (x + 3)(x - 2) - h(x) = x^2 + x - 6 - (-3x^2 + 4x + 4) = x^2 + x - 6 + 3x^2 - 4x - 4 = 4x^2 - 3x - 10$\n\n3. Factorisation de $f(x)$ :\n\n$f(x) = 3x^2 - 14x + 16$\n\nOn cherche deux nombres dont le produit est $3 \times 16 = 48$ et dont la somme est $-14$. Ces nombres sont $-6$ et $-8$.\n\n$f(x) = 3x^2 - 6x - 8x + 16 = 3x(x - 2) - 8(x - 2) = (3x - 8)(x - 2)$\n"
+              },
+            {
+              "type": "Algèbre",
+              "exercice": "On considère les polynômes d'une variable réelle suivants :\n\n$A(x) = 49x^2 - 1 + 21x - 3 + (7x - 1)^2$\n\n$B(x) = (x^2 - 4x + 4) + (x - 2)(27x + 8)$\n\n1. Développer, réduire et ordonner $A(x)$ et $B(x)$ suivant les puissances décroissantes de $x$.\n\n2. Factoriser les expressions $A(x)$ et $B(x)$.\n\n3. On considère le polynôme $E(x)$ tel que $E(x) = \\frac{2A(x)}{B(x)}$.\n\n   a. Donner le domaine de définition de $E(x)$.\n\n   b. Simplifier $E(x)$.\n\n4. Résoudre dans $\\mathbb{R}$ :\n\n   a. $A(x) = -3$\n\n   b. $B(x) = 28x^2 + 88$\n\n   c. $E(x) = 1$\n\n5. Calculer $A(0)$, $B(1)$, $E(\\sqrt{3})$.\n\n6. Encadrer $E(\\sqrt{3})$ sachant que $1,732 < \\sqrt{3} < 1,733$ (amplitude $10^{-2}$).",
+              "correction": "Résolution détaillée :\n\n1. Développement, réduction et ordonnancement :\n\n$A(x) = 49x^2 - 1 + 21x - 3 + 49x^2 - 14x + 1 = 98x^2 + 7x - 3$\n\n$B(x) = x^2 - 4x + 4 + 27x^2 + 8x - 54x - 16 = 28x^2 - 50x - 12$\n\n2. Factorisation :\n\n$A(x) = 98x^2 + 7x - 3 = (7x - 1)(14x + 3)$\n\n$B(x) = 28x^2 - 50x - 12 = 2(14x^2 - 25x - 6) = 2(x - 2)(14x + 3)$\n\n3. Fonction $E(x) = \\frac{2A(x)}{B(x)}$ :\n\na. Domaine de définition : $E(x) = \\frac{2(7x - 1)(14x + 3)}{2(x - 2)(14x + 3)}$\n\n$E(x)$ est définie si et seulement si $B(x) \\neq 0$, c'est-à-dire $(x - 2)(14x + 3) \\neq 0$. Cela implique $x \\neq 2$ et $x \\neq -\\frac{3}{14}$. Donc, le domaine de définition est $D_E = \\mathbb{R} \\setminus \\{-\\frac{3}{14}; 2\\}$.\n\nb. Simplification de $E(x)$ sur son domaine de définition :\n\nPour $x \\neq 2$ et $x \\neq -\\frac{3}{14}$, on peut simplifier : $E(x) = \\frac{7x - 1}{x - 2}$\n\n4. Résolution d'équations :\n\na. $A(x) = -3 \\Leftrightarrow 98x^2 + 7x - 3 = -3 \\Leftrightarrow 98x^2 + 7x = 0 \\Leftrightarrow 7x(14x + 1) = 0$. Les solutions sont $x = 0$ et $x = -\\frac{1}{14}$. Donc $S = \\{-\\frac{1}{14}; 0\\}$.\n\nb. $B(x) = 28x^2 + 88 \\Leftrightarrow 28x^2 - 50x - 12 = 28x^2 + 88 \\Leftrightarrow -50x = 100 \\Leftrightarrow x = -2$. Donc $S = \\{-2\\}$.\n\nc. $E(x) = 1 \\Leftrightarrow \\frac{7x - 1}{x - 2} = 1 \\Leftrightarrow 7x - 1 = x - 2 \\Leftrightarrow 6x = -1 \\Leftrightarrow x = -\\frac{1}{6}$. Donc $S = \\{-\\frac{1}{6}\\}$.\n\n5. Calculs de valeurs :\n\n$A(0) = 98(0)^2 + 7(0) - 3 = -3$\n\n$B(1) = 28(1)^2 - 50(1) - 12 = 28 - 50 - 12 = -34$\n\n$E(\\sqrt{3}) = \\frac{7\\sqrt{3} - 1}{\\sqrt{3} - 2} = \\frac{(7\\sqrt{3} - 1)(\\sqrt{3} + 2)}{(\\sqrt{3} - 2)(\\sqrt{3} + 2)} = \\frac{21 + 14\\sqrt{3} - \\sqrt{3} - 2}{3 - 4} = \\frac{19 + 13\\sqrt{3}}{-1} = -19 - 13\\sqrt{3}$\n\n6. Encadrement de $E(\\sqrt{3})$ :\n\nEn utilisant $1,732 < \\sqrt{3} < 1,733$, on a :\n\n$-13(1,733) - 19 < E(\\sqrt{3}) < -13(1,732) - 19$\n\n$-22,529 - 19 < E(\\sqrt{3}) < -22,516 - 19$\n\n$-41,529 < E(\\sqrt{3}) < -41,516$\n\nL'encadrement à $10^{-2}$ près est donc : $-41,53 < E(\\sqrt{3}) < -41,52$ s\n"
+            },
+            {
+              "type": "Géométrie",
+              "exercice": "Exercice I : Soit *P* un plan affine euclidien rapporté à un repère orthonormé (O, i, j). Dans ce repère, on donne les points A(11/2 ; -3/2), B(5/2 ; 1/2) et C(-2 ; 7/2).\n\n1. Montrer que les points A, B et C sont alignés.\n2. Soit I le milieu de [AC] et D le symétrique de O par rapport à I. Calculer les coordonnées de D. Que peut-on dire du quadrilatère OADC ?\n3. Démontrer que le triangle OCD est un triangle rectangle isocèle.",
+              "correction": "Résolution :\n1. Vecteur AB = (-3 ; 2). Vecteur AC = (-15/2 ; 5). AC = 5/2 AB. Les points A, B et C sont alignés.\n2. Coordonnées de I : (7/4 ; 1). Coordonnées de D : (7/2 ; 2). OADC est un parallélogramme.\n3. OC² = OD² = 65/4 et CD² = 65/2. Le triangle OCD est rectangle isocèle en O."
+            }
+          ]
+        }
+      },
+      {
+        "instruction": "Générer un sujet de BEF contenant 2 exercices d'algèbre et 2 exercices de géométrie.",
+        "response": {
+          "sujet": [
+            {
+              "type": "Algèbre",
+              "exercice": "On considère les fonctions polynômes $f$ et $g$ définies par :\n\n$f(x) = (x - 1)^2 - 25$\n\n$g(x) = (2x - 1)^2 - (x - 5)^2$\n\n1. Développer, réduire et ordonner suivant les puissances décroissantes de $x$ $f(x)$ et $g(x)$.\n\n2. Factoriser $f(x)$ et $g(x)$.\n\n3. Résoudre les équations suivantes dans $\\mathbb{R}$ :\n\n   a) $f(x) - g(x) = 0$\n\n   b) $g(x) - f(x) = 0$\n\n4. Soit $P$ la fonction rationnelle définie par $P(x) = \\frac{(x + 4)(3x - 5)}{3(x + 4)(x - 6)}$.\n\n   a) Simplifier $P(x)$ après avoir déterminé son domaine de définition.\n\n   b) Résoudre l'équation $P(x) = 1$.\n\n5. Résoudre dans $\\mathbb{R}^2$ les systèmes :\n\n   a) $\\begin{cases} 4x + y = -9 \\\\ 2x + 3y = 6 \\end{cases}$\n\n   b) $\\begin{cases} 5x + 3y - 7 = 0 \\\\ 3x - 7y + 8 = 0 \\end{cases}$",
+              "correction": "Résolution détaillée :\n\n1. Développement, réduction et ordonnancement :\n\n$f(x) = (x - 1)^2 - 25 = x^2 - 2x + 1 - 25 = x^2 - 2x - 24$\n\n$g(x) = (2x - 1)^2 - (x - 5)^2 = (4x^2 - 4x + 1) - (x^2 - 10x + 25) = 4x^2 - 4x + 1 - x^2 + 10x - 25 = 3x^2 + 6x - 24$\n\n2. Factorisation :\n\n$f(x) = x^2 - 2x - 24 = (x - 6)(x + 4)$\n\n$g(x) = 3x^2 + 6x - 24 = 3(x^2 + 2x - 8) = 3(x + 4)(x - 2)$\n\n3. Résolution d'équations dans $\\mathbb{R}$ :\n\na) $f(x) - g(x) = 0 \\Leftrightarrow x^2 - 2x - 24 - (3x^2 + 6x - 24) = 0 \\Leftrightarrow -2x^2 - 8x = 0 \\Leftrightarrow -2x(x + 4) = 0$. Donc $x = 0$ ou $x = -4$. L'ensemble des solutions est $S = \\{-4; 0\\}$.\n\nb) $g(x) - f(x) = 0 \\Leftrightarrow -2x(x+4) = 0$. Donc $x = 0$ ou $x = -4$. L'ensemble des solutions est $S = \\{-4; 0\\}$.\n\n4. Fonction rationnelle $P(x)$ :\n\na) Domaine de définition : $P(x)$ est définie si $3(x + 4)(x - 6) \\neq 0$, donc $x \\neq -4$ et $x \\neq 6$. $D_P = \\mathbb{R} \\setminus \\{-4; 6\\}$.\n\nSimplification : Pour $x \\neq -4$, $P(x) = \\frac{3x - 5}{3(x - 6)} = \\frac{3x-5}{3x-18}$\n\nb) $P(x) = 1 \\Leftrightarrow \\frac{3x - 5}{3(x - 6)} = 1 \\Leftrightarrow 3x - 5 = 3(x - 6) \\Leftrightarrow 3x - 5 = 3x - 18 \\Leftrightarrow -5 = -18$. Cette équation n'a pas de solution. Donc $S = \\emptyset$.\n\n5. Résolution dans $\\mathbb{R}^2$ des systèmes :\n\na) $\\begin{cases} 4x + y = -9 \\\\ 2x + 3y = 6 \\end{cases}$. Solution : $S = \\{(-\\frac{33}{10}; \\frac{21}{5})\\}$.\n\nb) $\\begin{cases} 5x + 3y - 7 = 0 \\\\ 3x - 7y + 8 = 0 \\end{cases}$. Solution : $S = \\{(\\frac{25}{44}; \\frac{61}{44})\\}$.\n"
+            },
+            {
+              "type": "Algèbre",
+              "exercice": "Exercice : On donne $f(x) = -3x - 5$ et $g(x) = x^2 - 4$. Calculer $gof(x)$ et $fog(x)$.",
+              "correction": "Résolution détaillée de l'exercice  :\n\n*   $gof(x) = g(f(x)) = g(-3x - 5) = (-3x - 5)^2 - 4 = 9x^2 + 30x + 25 - 4 = 9x^2 + 30x + 21$\n\n*   $fog(x) = f(g(x)) = f(x^2 - 4) = -3(x^2 - 4) - 5 = -3x^2 + 12 - 5 = -3x^2 + 7$"
+            },
+            {
+              "type": "Géometrie",
+              "exercice": "Exercice: Si on diminue de 2 cm le côté d'un carré, son aire diminue de 20 cm². Quelle est la mesure du côté du carré initial ?",
+              "correction": "Résolution : Soit *a* le côté du carré. *a² - (a - 2)² = 20* <=> *a² - a² + 4a - 4 = 20* <=> *4a = 24*. Donc *a = 6 cm*."
+            }
+          ]
+        }
+      },
+      {
+        "instruction": "Générer un sujet de type BEF ",
+        "response": {
+          "sujet": [
+
+            {
+              "type": "Algèbre",
+              "exercice": "Exercice : On donne $f(x) = \\frac{x - 2}{x + 3}$ et $g(x) = \\frac{3x}{x + 1}$. Calculer $gof(x)$ et $fog(x)$.",
+              "correction": "Résolution détaillée de l'exercice:\n\n*   $gof(x) = g(f(x)) = g(\\frac{x - 2}{x + 3}) = \\frac{3(\\frac{x - 2}{x + 3})}{(\\frac{x - 2}{x + 3}) + 1} = \\frac{\\frac{3x - 6}{x + 3}}{\\frac{x - 2 + x + 3}{x + 3}} = \\frac{3x - 6}{2x + 1}$\n\n*   $fog(x) = f(g(x)) = f(\\frac{3x}{x + 1}) = \\frac{\\frac{3x}{x + 1} - 2}{\\frac{3x}{x + 1} + 3} = \\frac{\\frac{3x - 2(x + 1)}{x + 1}}{\\frac{3x + 3(x + 1)}{x + 1}} = \\frac{3x - 2x - 2}{3x + 3x + 3} = \\frac{x - 2}{6x + 3}$"
+            },
+            {
+              "type": "Problème",
+              "exercice": "Problème: Un fermier porte ses œufs au marché. Il veut les vendre à 0,55 F pièce. Pendant le voyage, il en casse 20. Il constate qu'en vendant ceux qui restent à 0,65 F la pièce, il recevra la même somme. Combien avait-il d'œufs ?",
+              "correction": "Résolution : Soit *x* le nombre d'œufs. *0,55x = (x - 20) * 0,65* <=> *0,55x = 0,65x - 13* <=> *0,1x = 13*. Donc *x = 130 œufs*."
+            },
+            {
+              "type": "Problème",
+              "exercice": "Problème : Un père a 27 ans de plus que son fils. Dans 6 ans, l'âge du père sera le double de l'âge du fils. Trouver l'âge de chacun d'eux.",
+              "correction": "Résolution : Soit *y* l'âge du fils et *x* celui du père. *x = y + 27* et *x + 6 = 2(y + 6)*. Substituant : *y + 27 + 6 = 2y + 12* <=> *y = 21*. Donc le fils a 21 ans et le père a 48 ans."
+            },
+            {
+              "type": "Problème",
+              "exercice": "Problème : Dans une classe, la moitié des élèves est née en 1965, le quart en 1966, le sixième en 1964, et le reste, soit trois élèves, en 1967. Combien cette classe comprend-elle d'élèves nés pour chaque année citée ?",
+              "correction": "Résolution : Soit *e* le nombre d'élèves. *(1/2)e + (1/4)e + (1/6)e + 3 = e* <=> *(6/12)e + (3/12)e + (2/12)e + 3 = e* <=> *(11/12)e + 3 = e* <=> *3 = (1/12)e*. Donc *e = 36 élèves*. Répartition : 18 en 1965, 9 en 1966, 6 en 1964 et 3 en 1967."
+            },
+            {
+              "type": "Géometrie",
+              "exercice": "Exercice: La longueur d'un rectangle est 12 cm. Trouver un encadrement de sa largeur pour que son périmètre soit plus petit que 44 cm et son aire plus grande que 60 cm²",
+              "correction": "Résolution : Soit *l* la largeur. Périmètre : *2(l + 12) < 44* <=> *l < 10*. Aire : *12l > 60* <=> *l > 5*. Donc *5 cm < l < 10 cm*."
+            }
+          ]
+        }
+      },
+      {
+        "instruction": "Générer un sujet contenant que des problemes de types BEF.",
+        "response": {
+          "sujet": [
+           
+                  {
+              "type": "Problème",
+              "exercice": "Problème : Une boîte de 12 bics coûte moins de 1440 F et une boîte de 24 bics coûte plus de 2640 F. Quels sont les prix possibles d'un bic ?",
+              "correction": "Résolution : Soit *p* le prix d'un bic. *12p < 1440* et *24p > 2640*. Donc *110 < p < 120*. Les prix possibles sont les entiers de 111 F à 119 F."
+            },
+            {
+              "type": "Problème",
+              "exercice": "Problème : Alice achète 3 kg de pommes et 2 kg d'oranges pour 46 F. Cécile achète au même épicier 2 kg de pommes et 6 kg d'oranges pour 49 F. Quel est le prix du kilogramme de pommes et du kilogramme d'oranges ?",
+              "correction": "Résolution  : Soit *x* le prix des pommes et *y* celui des oranges. *3x + 2y = 46* et *2x + 3y = 49*. Donc *x = 8 F* et *y = 11 F*."
+            },
+            {
+              "type": "Problème",
+              "exercice": "Problème : Dans un poulailler contenant uniquement des lapins et des canards, on compte 100 pattes... Calculer le nombre de lapins et le nombre de canards.",
+              "correction": "Résolution : Soit *l* le nombre de lapins et *c* le nombre de canards. *4l + 2c = 100* et *3200l + 2800c = 94400*. Donc *l = 19 lapins* et *c = 12 canards*."
+            },
+            {
+              "type": "Problème",
+              "exercice": "Problème : Je pose deux nombres *a* et *b*. En ajoutant le nombre triple de *a* au double de *b*, j'obtiens 144... En déterminer *a* et *b*.",
+              "correction": "Résolution : *3a + 2b = 144* et *a/4 - b/2 = 4*. Donc *a = 40* et *b = 12*."
+            },
+                  {
+              "type": "Problème",
+              "exercice": "Problème : Avant de partir au marché, Clémence possède 1 200 F de plus que sa camarade Solange… De quelles sommes d'argent disposaient-elles avant d'aller au marché ?",
+              "correction": "Résolution : Soit *x* la somme de Clémence et *y* celle de Solange. *x = y + 1200* et *x - 3600 = 2(y - 3600)*. Donc *x = 6000 F* et *y = 4800 F*."
+            },
+                  {
+              "type": "Problème",
+              "exercice": "Problème : La différence des aires de deux terrains carrés est de 464 m². La différence de leurs périmètres est de 32 m. Quelles sont les longueurs des côtés de ces deux terrains ?",
+              "correction": "Résolution : Soit *x* la longueur du côté de l'un et *y* celle de l'autre. *x² - y² = 464* et *4x - 4y = 32*. Donc *x = 33 m* et *y = 25 m*."
+            },
+              {
+              "type": "Problème",
+              "exercice": "Problème : J'ai deux fois l'âge que vous aviez quand j'avais deux fois l'âge que vous avez, dit Jean à Paul. Quand vous aurez l'âge que j'ai, nous aurons ensemble 63 ans. Quels sont nos âges ?",
+              "correction": "Résolution : Soit *x* l'âge de Jean et *y* celui de Paul. On trouve *x = 28 ans* et *y = 21 ans*."
+            }
+          ]
+        }
+      },
+      {
+        "instruction": "Générer un sujet de BEF contenant des exercices.",
+        "response": {
+          "sujet": [
+              
+            {
+              "type": "Algebre",
+              "exercice": "Résoudre graphiquement les systèmes :\na) {2x + y - 4 \\geq x + 5y + 3\n-3x + 2y \\leq x + y + 5\nb) {-x + y < 0\n4x + 3y - 7 < 6x - 2y + 3",
+              "correction": "Résolution :\na) (D₁) : x - 4y - 7 \\geq 0\n(D₂) : -4x + y - 5 \\leq 0\nLa solution est l'intersection des demi-plans définis par ces inéquations (S₁ ∩ S₂).\nb) (D₁) : -x + y < 0\n(D₂) : -2x + 5y - 10 < 0\nLa solution est également l'intersection des demi-plans (S₁ ∩ S₂). (Tracer les droites pour visualiser les solutions graphiquement.)"
+            },
+            {
+              "type": "Algebre",
+              "exercice": "Résoudre dans l'ensemble R des nombres réels les équations et inéquations suivantes :\na) \\sqrt{x^2 - 6x + 9} \\leq 3|x - 1|\nb) |3x - 2| - |-x + 4| + 2 = 0\nc) x|x| - 4 \\geq 0",
+              "correction": "Résolution :\na) \\sqrt{x^2 - 6x + 9} \\leq 3|x - 1|\n|x - 3| \\leq 3|x - 1|\n0 \\leq 4x(2x - 3)\nS = ]-\\infty ; 0] \\cup [\\frac{3}{2} ; +\\infty[\nb) |3x - 2| - |-x + 4| + 2 = 0\nCas 1 : x \\geq \\frac{2}{3} et x \\leq 4 => x = 1 (valide)\nCas 2 : x < \\frac{2}{3} et x \\leq 4 => x = 0 (valide)\nCas 3 : x \\geq \\frac{2}{3} et x > 4 => x = -2 (non valide)\nCas 4: x<\\frac{2}{3} et x>4 impossible\nS = {0 ; 1}\nc) x|x| - 4 \\geq 0\nSi x \\geq 0 : x^2 - 4 \\geq 0 => x \\geq 2\nSi x < 0 : -x^2 - 4 \\geq 0 (impossible)\nS = [2 ; +\\infty["
+            },
+            {
+              "type": "Géométrie",
+              "exercice": "Exercice : Dans un plan euclidien rapporté à un repère (O, i, j), on donne les points A(-2 ; 3), B(-2 ; -1), C(6 ; -1).\n1. Placer les points A, B et C sur le graphique.\n2. Calculer les composantes des vecteurs AB, AC et BC.\n3. Calculer les distances AB, AC et BC.\n4. Montrer que les vecteurs AB et BC sont orthogonaux.\n5. En déduire que le triangle ABC est rectangle en B.\n6. Calculer les coordonnées du point Q, centre du cercle circonscrit au triangle ABC.\n7. Que peut-on dire du point Q et I milieu de AC ?\n8. Soit R le rayon du cercle, calculer R.\n9. Calculer le diamètre et la circonférence de ce cercle (C).\n10. Soit B' le symétrique du point B par rapport au point I, calculer ces coordonnées.\n11. Montrer que le point B' appartient lui aussi au cercle de centre Q.\n12. Montrer que le quadruplet (A, B, C, B') est un rectangle.",
+              "correction": "Résolution :\n1. (À faire sur un graphique)\n2. AB = (0 ; -4), AC = (8 ; -4), BC = (8 ; 0)\n3. AB = 4, AC = 4√5, BC = 8\n4. AB · BC = 0\n5. Triangle rectangle en B\n6. Q = (2 ; 1)\n7. Q et I sont le même point.\n8. R = 2√5\n9. Diamètre = 4√5, Circonférence = 4π√5\n10. B' = (6 ; 3)\n11. QB' = R\n12. (A, B, C, B') est un rectangle."
+              }
+          ]
+        }
+      },
+      {
+        "instruction": "Generer un sujet de type BEF tchadien",
+        "response": {
+          "sujet": [
+            {
+              "type": "Algebre",
+              "exercice": "Calculer : \n1) \\(E=2\\sqrt{3}+20\\sqrt{3}-256\\sqrt{3}\\)\n2) \\(F=3\\times5\\times2\\sqrt{5\\times2\\times5\\times3}\\)\n3) Encadrer \\(2-\\sqrt{3}\\) par deux nombres décimaux consécutifs d'ordre 2.",
+              "correction": "1) \\(E=-234\\sqrt{3}\\)\n2) \\(F=150\\sqrt{6}\\)\n3) \\(0,26 < 2-\\sqrt{3} < 0,27\\)"
+            },
+            {
+              "type": "Algebre",
+              "exercice": "Résoudre chacune des équations suivantes :\n1) \\((x-1)(2x+3)-(x-1)(5-4x)=0\\)\n2) \\(81-36x^{2}=0\\)\n3) \\(|x+2|=9\\)",
+              "correction": "1) \\((x-1)(2x+3)-(x-1)(5-4x)=0\\Leftrightarrow(x-1)(6x-2)=0\\Rightarrow S=\\{1;\\frac{1}{3}\\}\\)\n2) \\(81-36x^{2}=0\\Leftrightarrow(9-6x)(9+6x)=0\\Rightarrow S=\\{-\\frac{3}{2};\\frac{3}{2}\\}\\)\n3) \\(|x+2|=9\\Leftrightarrow x+2=9 \\text{ ou } x+2=-9 \\Leftrightarrow x=7 \\text{ ou } x=-11 \\Rightarrow S=\\{-11;7\\}\\)"
+            },
+            {
+              "type": "Géométrie",
+              "exercice": "Dans le plan muni d'un repère orthonormé (O, \\vec{i}, \\vec{j}), on considère les points O et B tels que : \\vec{OA} = 5\\vec{i} + 5\\vec{j} et \\vec{AB} = 3\\vec{i} - \\vec{j}.\n\n1. Déterminer les coordonnées de A, puis les coordonnées de B.\n2. Représenter les points A et B dans le repère donné.\n3. À un vecteur \\vec{V} de coordonnées (x, y), on associe le vecteur \\vec{V'} de coordonnées (-y, x), c'est-à-dire x\\vec{i} + y\\vec{j} \\rightarrow y\\vec{i} - x\\vec{j}.\na) Déterminer les coordonnées du vecteur \\vec{V'} sachant que \\vec{V} = 2\\vec{AB}, puis les coordonnées du point C défini par \\vec{AC} = \\vec{V'}.\nb) Représenter le point C dans le repère donné.\n4. Déterminer la nature du quadrilatère OABC.\n5. Montrer que la droite (AC) est orthogonale aux droites (AB) et (OC).",
+              "correction": "1. \\vec{OA} = 5\\vec{i} + 5\\vec{j} et \\vec{AB} = 3\\vec{i} - \\vec{j} donc A(5; 5) et B(8; 4).\n2. (À faire sur un graphique)\n3. a) \\vec{V} = 2\\vec{AB} = 6\\vec{i} - 2\\vec{j}. Donc \\vec{V'} a pour coordonnées (2; 6). \\vec{AC} = \\vec{V'} donne C(7; 11).\nb) (À faire sur un graphique)\n4. OABC est un trapèze isocèle (OA = BC = 5\\sqrt{2}).\n5. \\vec{AC}(2;6) et \\vec{AB}(3;-1) donc \\vec{AC}.\\vec{AB} = 2*3 + 6*(-1) = 0. (AC) est orthogonale à (AB).\n\\vec{OC}(7;11) donc \\vec{AC}.\\vec{OC} = 2*7 + 6*11 = 80 \\neq 0. (AC) n'est pas orthogonale à (OC)."
+            }
+          ]
+        }
+      },
+      {
+        "instruction": "Je veux un sujet",
+        "response": {
+          "sujet": [
+            {
+              "type": "Algebre",
+              "exercice": "Soit \\(A=7-2\\sqrt{10}\\) et \\(B=18-2\\sqrt{10}\\).\n1) Calculer A et B.\n2) Montrer que \\(A-B=-11\\in Z\\).",
+              "correction": "1) \\(A=7-2\\sqrt{10}\\) et \\(B=18-2\\sqrt{10}\\).\n2) \\(A-B=(7-2\\sqrt{10})-(18-2\\sqrt{10})=7-2\\sqrt{10}-18+2\\sqrt{10}=7-18=-11\\). Donc \\(A-B=-11\\in Z\\)."
+            },
+            {
+              "type": "Algebre",
+              "exercice": "Soit \\(A(x)=9x^{2}-42x+49-2(3x-7)(x+2)\\).\n1) Développer, réduire et ordonner \\(A(x)\\).\n2) Factoriser \\(A(x)\\).",
+              "correction": "1) \\(A(x)=9x^{2}-42x+49-6x^{2}-12x+14x+28=3x^{2}-40x+77\\).\n2) \\(A(x)=(3x-7)(x-11)\\)."
+            },
+            {
+              "type": "Géométrie",
+              "exercice": "Le plan est muni du repère (O, \\vec{i}, \\vec{j}). On donne les points A(-2; 4), B(2; 0) et C(-4; 2).\n1) Calculer les distances AB, BC et AC.\n2) Déterminer la nature du triangle ABC.",
+              "correction": "1) \\(\\vec{AB}(4;-4)\\Rightarrow AB=\\sqrt{32}=4\\sqrt{2},\\vec{BC}(-6;2)\\Rightarrow BC=\\sqrt{40}=2\\sqrt{10},\\vec{AC}(-2;-2) \\Rightarrow AC=\\sqrt{8}=2\\sqrt{2}\\)\n2) \\(BC^{2}=40\\) et \\(AB^{2}+AC^{2}=32+8=40\\).\n\\(BC^{2}=AB^{2}+AC^{2}\\) donc, d'après le théorème de Pythagore, le triangle ABC est rectangle en A."
+            }
+          ]
+        }
+      },
+      {
+          "instruction": "Génère un sujet type BEF,avec des exercices d'algèbre et de géométrie.",
+          "response": {
+          "sujet": [
+            {
+              "type": "Algèbre - Fonctions polynômes et équations",
+              "exercice": "Soient f et g deux fonctions polynômes définies par :\n\\(f(x)=ax^{2}+bx-3\\)\n\\(g(x)=(x+2)(x-3)-(3-x)^{2}+x^{2}-9\\)\n1) Déterminer les réels a et b pour que \\(f(-1)=0\\) et \\(f(2)=-3\\).\n2) Factoriser f(x) et g(x).\n3) Résoudre dans \\(\\mathbb{R}\\), \\(f(x) = g(x)\\).\n4) Soit \\(h(x)=\\frac{2x-1}{x+1}\\).\nCalculer \\(h(\\sqrt{2})\\), puis l'encadrement à \\(10^{-2}\\) près par défaut sachant que : \\(1,414<\\sqrt{2}<1,415\\)",
+              "correction": "1) On a :\n\\(f(-1)=a(-1)^{2}+b(-1)-3=a-b-3=0\\)\n\\(f(2)=a(2)^{2}+b(2)-3=4a+2b-3=-3\\)\nOn obtient le système d'équations :\n\\(a-b=3\\)\n\\(2a+b=0\\)\nEn additionnant les deux équations, on obtient \\(3a=3\\Rightarrow a=1\\).\nEn remplaçant a par 1 dans la première équation, on obtient \\(1-b=3\\Rightarrow b=-2\\).\nDonc \\(f(x)=x^{2}-2x-3\\).\n2) Factorisation :\n\\(f(x)=x^{2}-2x-3=(x-3)(x+1)\\)\n\\(g(x)=(x+2)(x-3)-(9-6x+x^{2})+x^{2}-9=x^{2}-x-6-9+6x-x^{2}+x^{2}-9=x^{2}+5x-24=(x+8)(x-3)\\).\n3) Résolution de \\(f(x)=g(x)\\) :\n\\((x-3)(x+1)=(x+8)(x-3)\\Leftrightarrow(x-3)(x+1)-(x+8)(x-3)=0\\Leftrightarrow(x-3)(x+1-x-8)=0\\Leftrightarrow(x-3)(-7)=0\\Leftrightarrow x=3\\).\nDonc \\(S=\\{3\\}\\).\n4) Calcul de \\(h(\\sqrt{2})\\) :\n\\(h(\\sqrt{2})=\\frac{2\\sqrt{2}-1}{\\sqrt{2}+1}=\\frac{(2\\sqrt{2}-1)(\\sqrt{2}-1)}{(\\sqrt{2}+1)(\\sqrt{2}-1)}=\\frac{4-2\\sqrt{2}-\\sqrt{2}+1}{2-1}=5-3\\sqrt{2}\\).\nEncadrement :\n\\(1,414<\\sqrt{2}<1,415\\)\n\\(-4,245<-3\\sqrt{2}<-4,242\\)\n\\(0,755<5-3\\sqrt{2}<0,758\\).\nL'encadrement par défaut à \\(10^{-2}\\) près est donc **0,75**."
+            },
+            {
+              "type": "Problème",
+              "exercice": "Avant de partir au marché, Aminata possède 1200F de plus que Solange. Au marché, elles dépensent chacune 3600F. Aminata possède alors deux fois plus d'argent que Solange. De quelles sommes d'argent disposaient-elles avant d'aller au marché ?",
+              "correction": "Soit $x$ l'argent d'Aminata et $y$ celui de Solange avant le marché.\n$x = y + 1200$\n$x - 3600 = 2(y - 3600)$\nEn résolvant le système, on trouve $y = 4800$ et $x = 6000$. Solange avait 4800F et Aminata 6000F."
+            },
+             {
+        "type": "Géométrie",
+        "exercice": "Dans un plan muni d'un repère orthonormé (O, i, j), les points A, B et C sont tels que OA = 2i + j, OB = -2i + j, OC = 2i.\n1) Déterminer les coordonnées des points A, B et C.\n2) Déterminer D pour que ABCD soit un parallélogramme.\n3) Calculer les composantes des vecteurs $\\vec{AB}$ et $\\vec{BC}$.\n4) Calculer les distances $AB$ et $BC$.\n5) Placer les points dans le repère.",
+        "correction": "Résolution détaillée :\n\n1) Coordonnées des points :\n\n$A(2 ; 1)$\n$B(-2 ; 1)$\n$C(2 ; 0)$\n\n2) Détermination du point D :\n\nPour que ABCD soit un parallélogramme, il faut que $\\vec{AB} = \\vec{DC}$.\n$\\vec{AB}$ a pour coordonnées $(-2 - 2 ; 1 - 1) = (-4 ; 0)$.\nSoit $D(x ; y)$. $\\vec{DC}$ a pour coordonnées $(2 - x ; 0 - y) = (2 - x ; -y)$.\nDonc, $2 - x = -4$ et $-y = 0$, ce qui donne $x = 6$ et $y = 0$. Ainsi, $D(6 ; 0)$.\n\n3) Composantes des vecteurs :\n\n$\\vec{AB}(-4 ; 0)$\n$\\vec{BC}(2 - (-2) ; 0 - 1) = (4 ; -1)$\n\n4) Calcul des distances :\n\n$AB = \\sqrt{(-4)^2 + 0^2} = \\sqrt{16} = 4$\n$BC = \\sqrt{4^2 + (-1)^2} = \\sqrt{16 + 1} = \\sqrt{17}$\n\n5) Placement des points :\n\nLe placement des points se fait sur un repère orthonormé avec les coordonnées calculées."
+      }
+          ]
+        }
+      },
+      {
+                "instruction": "Génère un sujet type BEF, avec des exercices d'algèbre et de géométrie.",
+                "response": {
+                  "sujet": [
+                            {
+                              "type": "Algèbre",
+                              "exercice": "On considère les deux fonctions polynômes : $f(x) = (2x - 3)^2 - 64$ et $g(x) = (2x + 5)(3x - 2) - 4(2x + 5)$.\na) Développer, réduire et ordonner $f(x)$ et $g(x)$.\nb) Factoriser $f(x)$ et $g(x)$.\nc) On pose $h(x) = \\frac{f(x)}{g(x)}$.\n1. Déterminer le domaine de définition de $h(x)$.\n2. Simplifier $h(x)$.\n3. Calculer $h(\\sqrt{2})$.",
+                              "correction": "Résolution détaillée :\n\na) Développement, réduction et ordonnancement :\n\n$f(x) = (2x - 3)^2 - 64 = 4x^2 - 12x + 9 - 64 = 4x^2 - 12x - 55$\n\n$g(x) = (2x + 5)(3x - 2) - 4(2x + 5) = 6x^2 - 4x + 15x - 10 - 8x - 20 = 6x^2 + 3x - 30$\n\nb) Factorisation :\n\n$f(x) = (2x - 3)^2 - 64 = (2x - 3 - 8)(2x - 3 + 8) = (2x - 11)(2x + 5)$\n\n$g(x) = (2x + 5)(3x - 2) - 4(2x + 5) = (2x + 5)(3x - 2 - 4) = (2x + 5)(3x - 6) = 3(2x + 5)(x - 2)$\n\nc) Étude de $h(x)$ :\n\n1. Domaine de définition : $h(x)$ existe si $g(x) \\neq 0$. Donc, $3(2x + 5)(x - 2) \\neq 0$, ce qui implique $x \\neq -\\frac{5}{2}$ et $x \\neq 2$. Ainsi, $D_h = \\mathbb{R} \\setminus \\left\\{-\\frac{5}{2} ; 2\\right\\}$.\n\n2. Simplification de $h(x)$ : $h(x) = \\frac{(2x - 11)(2x + 5)}{3(2x + 5)(x - 2)} = \\frac{2x - 11}{3(x - 2)}$ pour $x \\neq -\\frac{5}{2}$.\n\n3. Calcul de $h(\\sqrt{2})$ :\n\n$h(\\sqrt{2}) = \\frac{2\\sqrt{2} - 11}{3(\\sqrt{2} - 2)} = \\frac{(2\\sqrt{2} - 11)(\\sqrt{2} + 2)}{3(\\sqrt{2} - 2)(\\sqrt{2} + 2)} = \\frac{4 + 4\\sqrt{2} - 11\\sqrt{2} - 22}{3(2 - 4)} = \\frac{-18 - 7\\sqrt{2}}{-6} = 3 + \\frac{7\\sqrt{2}}{6}$"
+                            },
+                              {
+                                "type": "Géométrie",
+                                "exercice": "Le plan est muni d'un repère orthonormé (O, i, j). Les points A, B et C sont tels que : $\\vec{OA} = 2\\vec{i} + 2\\vec{j}$, $\\vec{OB} = 2\\vec{i} + 4\\vec{j}$, $\\vec{OC} = -2\\vec{i} + 4\\vec{j}$.\na) Déterminer les coordonnées des points A, B et C.\nb) Placer les points A, B et C dans le repère.\nc) Calculer les couples de coordonnées des vecteurs $\\vec{AB}$, $\\vec{BC}$ et $\\vec{AC}$.\nd) Déterminer le point I milieu du segment [AC].\ne) Déterminer le point D symétrique du point B par rapport à I.\nf) Calculer les distances AB, BC et AC.\ng) Quelle est la nature du quadrilatère ABCD ?",
+                                "correction": "a) A(2, 2), B(2, 4), C(-2, 4). Les coordonnées d'un point sont données par les coefficients des vecteurs i et j.\nb) Utiliser les coordonnées pour placer les points dans le repère.\nc) $\\vec{AB}(0, 2)$, $\\vec{BC}(-4, 0)$, $\\vec{AC}(-4, 2)$. Les coordonnées d'un vecteur $\\vec{XY}$ sont données par $(x_Y - x_X, y_Y - y_X)$.\nd) I(0, 3). Les coordonnées du milieu I de [AC] sont : $\\left(\\frac{x_A + x_C}{2}, \\frac{y_A + y_C}{2}\\right)$.\ne) D(-2, 2). I est le milieu de [BD]. On utilise la formule du milieu pour trouver D. $x_D = 2x_I - x_B$ et $y_D = 2y_I - y_B$.\nf) AB = 2, BC = 4, AC = $2\\sqrt{5}$. La distance entre deux points X et Y est : $XY = \\sqrt{(x_Y - x_X)^2 + (y_Y - y_X)^2}$.\ng) ABCD est un rectangle de centre I. Comme BC=AD=4 et AB=DC=2, on conclut que ABCD est un rectangle."
+                              }
+                          ]
+                      }
+                  },
+    {
+        "instruction": "Génère un sujet type BEF tchadien.",
+        "response": {
+            "sujet": [
+                  {
+                    "type": "Algèbre",
+                    "exercice": "On considère les nombres : $A = \\frac{\\frac{4}{3} + \\frac{2}{5}}{2 + \\frac{1}{6}}$, $B = 4\\sqrt{3} - 2$, $C = 2\\sqrt{27} + 3$.\n1°) Calculer A et donner le résultat sous forme d'une fraction irréductible.\n2°) Calculer B + C, puis $B^2$ (on donnera chaque résultat sous la forme $a + b\\sqrt{3}$ où a et b sont des nombres réels).",
+                    "correction": "1°) $A = \\frac{\\frac{20+6}{15}}{\\frac{12+1}{6}} = \\frac{\\frac{26}{15}}{\\frac{13}{6}} = \\frac{26}{15} \\times \\frac{6}{13} = \\frac{2 \\times 13}{5 \\times 3} \\times \\frac{2 \\times 3}{13} = \\frac{4}{5}$.\n2°) $B + C = (4\\sqrt{3} - 2) + (2\\sqrt{27} + 3) = (4\\sqrt{3} - 2) + (6\\sqrt{3} + 3) = 10\\sqrt{3} + 1$. $B^2 = (4\\sqrt{3} - 2)^2 = (4\\sqrt{3})^2 - 2 \\times 4\\sqrt{3} \\times 2 + 2^2 = 16 \\times 3 - 16\\sqrt{3} + 4 = 48 - 16\\sqrt{3} + 4 = 52 - 16\\sqrt{3}$."
+                  },
+                  {
+                    "type": "Algèbre",
+                    "exercice": "Soit $E = (5x - 2)^2 - 9$.\n1°) Développer E.\n2°) Factoriser E.",
+                    "correction": "1°) $E = (5x - 2)^2 - 9 = (25x^2 - 20x + 4) - 9 = 25x^2 - 20x - 5$.\n2°) $E = (5x - 2)^2 - 3^2 = (5x - 2 - 3)(5x - 2 + 3) = (5x - 5)(5x + 1) = 5(x - 1)(5x + 1)$."
+                  },
+                  {
+                    "type": "Géométrie",
+                    "exercice": "Le plan est rapporté à un repère orthonormé (O, i, j). On considère les points de coordonnées suivantes : A(-1; 3) et B(-3; -1).\n1°) Placer les points A et B.\n2°) Soit (D) la droite d'équation y = 2x + 5. a) Vérifier que les points A et B appartiennent à la droite (D). b) Tracer la droite (D).\n3°) On appelle M le milieu du segment [AB]. a) Calculer les coordonnées du milieu M. b) Déterminer une équation de la droite (OM). On admettra que les droites (OM) et (AB) sont perpendiculaires.\n4°) Soit le point C symétrique du point O par rapport au point M. a) Vérifier par le calcul que les coordonnées de C sont (-4; 2). b) Calculer les distances (OC) et (AB). c) En déduire la nature du quadrilatère AOBC. Justifier la réponse.\n5°) Construire l'image du quadrilatère AOBC par la translation du vecteur CO.",
+                    "correction": "1°) Figure.\n2°) a) Pour A : 2*(-1) + 5 = 3. Pour B : 2*(-3) + 5 = -1. Donc A et B appartiennent à (D). b) Tracer la droite passant par A et B.\n3°) a) M((-1-3)/2; (3-1)/2) = M(-2; 1). b) La droite (OM) a pour équation y = -½x.\n4°) a) Si M est le milieu de [OC], alors -2 = (0+x_C)/2 et 1 = (0+y_C)/2, donc C(-4; 2). b) OC = sqrt((-4)^2 + 2^2) = 2sqrt(5). AB = sqrt((-3+1)^2 + (-1-3)^2) = 2sqrt(5). c) AOBC est un carré car ses diagonales se coupent en leur milieu (M), sont perpendiculaires et de même longueur.\n5°) L'image de C est O. L'image de O est C'(4;-2). L'image de A est A'(3;1). L'image de B est B'(1;-3)."
+                  }
+            ]
+         }
+      },
+      {
+        "instruction": "Je suis tchadien(ne) et je souhaite que tu me genere un sujet de type BEF",
+        "response": {
+            "sujet": [
+              {
+                "type": "Algèbre",
+                "exercice": "a) Développer A = (3x - 5)(2x + 7).\nb) Réduire l'équation suivante : 6x² + 11x - 35 = 3x² - 5x.",
+                "correction": "a) A = 6x² + 11x - 35.\nb) 6x² + 11x - 35 = 3x² - 5x <=> 3x² + 16x - 35 = 0"
+              },
+              {
+                "type": "Algèbre",
+                "exercice": "1) Soit f une fonction définie par f(x) = (3x - 1)² - 1 + (3x - 2)(x + 1). Factoriser f(x).\n2) Soit g définie par g(x) = (4x + 1)(2x - 1).\na) Développer g(x).\nb) Résoudre l'équation g(x) = 0.\n3) On considère h définie par h(x) = g(x) / f(x).\na) Donner le domaine de définition de h.\nb) Simplifier h(x).\nc) Calculer h(-√2) et h(0).",
+                "correction": "1) f(x) = (3x - 2)(4x + 1).\n2) a) g(x) = 8x² - 2x - 1. b) g(x) = 0 <=> x = -1/4 ou x = 1/2. S = {-1/4 ; 1/2}.\n3) a) f(x) = 0 <=> x = 2/3 ou x = -1/4. D<sub>h</sub> = ℝ \\ {-1/4 ; 2/3}. b) Si x ≠ -1/4, h(x) = (2x - 1) / (3x - 2). c) h(-√2) = (10 - √2) / 14. h(0) = 1/2."
+              },
+              {
+                "type": "Géométrie ",
+                "exercice": "Un plan est muni d'un repère orthonormé (O, i, j). On donne les points A(7 ; 1), B(8 ; 4) et C(-1 ; 7).\n1) a. Faire une figure. b. Calculer les distances AB, BC et CA. c. Démontrer que le triangle ABC est rectangle.\n2) M est le milieu du segment [AC] et D le symétrique de B par rapport à M. a. Déterminer les coordonnées de M. b. Démontrer que ABCD est un rectangle.\n3) P est l'image de O par la translation de vecteur AC. Déterminer les coordonnées de P.\n4) (C) est le cercle circonscrit au triangle ABC. a. Préciser le centre et le rayon de (C). b. Justifier que les points D et O appartiennent à (C).",
+                "correction": "1) b. AB = √10, BC = 3√10, CA = 10. c. AB² + BC² = CA², donc ABC est rectangle en B.\n2) a. M(3 ; 4). b. D(-2 ; 4). M est le milieu de [AC] et [BD], donc ABCD est un parallélogramme. ABC est rectangle en B, donc ABCD est un rectangle.\n3) P(-8 ; 6).\n4) a. Centre : M(3 ; 4), Rayon : 5. b. D appartient à (C) car ABCD est un rectangle. O appartient à (C) car OM = 5 (rayon du cercle)."
+              }
+            ]
+        }
+      },
+      {
+        "instruction": "Crée un sujet BEF complet pour les mathématiques de niveau 3ème avec 4 exercices variés dont 2 en algebre et 2 en geometrie.",
+        "response": {
+        "sujet": [  
+          {
+            "type": "Géométrie ",
+            "exercice": "Un plan est muni du repère (O, i, j). On donne les points A(-2 ; 1), B(2 ; 3), C(2 ; 0) et D(-2 ; -2).\n1) Calculer le couple de coordonnées du milieu M du segment [AC].\n2) Calculer le couple de coordonnées du milieu P du segment [BD].\n3) Quelle est la nature du quadrilatère ABCD ?",
+            "correction": "1) M(0 ; 1/2).\n2) P(0 ; 1/2).\n3) ABCD est un parallélogramme."
+          },
+          {
+            "type": "Géométrie",
+            "exercice": "ABC est un triangle équilatéral inscrit dans un cercle (C) de centre O. On désigne par r la rotation de centre O qui transforme A en B.\n1) Quelles sont les images par r de chacun des points O, B et C ?\n2) Quelles sont les images respectives de chacun des triangles ABC et OBC par r ?",
+            "correction": "1) L'image de O par r est O. L'image de A par r est B. L'image de B par r est C. L'image de C par r est A.\n2) L'image du triangle ABC par r est le triangle BCA. L'image du triangle OBC par r est le triangle OCA."
+          },
+          {
+            "type": "Algèbre",
+            "exercice": "1) Écrire les nombres E et F sous la forme a√b où a et b sont des entiers.\nE = √12 + 4√75 - 64√48\nF = 3√5 × 5√2 × 2√15\n2) Sachant que 1,732 < √3 < 1,733, donner un encadrement de 2 - √3 par deux nombres décimaux d'ordre 2 consécutifs.",
+            "correction": [
+              "\\text{Calcul de E:}",
+              "\\sqrt{12} = \\sqrt{4 \\times 3} = 2\\sqrt{3}",
+              "\\sqrt{75} = \\sqrt{25 \\times 3} = 5\\sqrt{3}",
+              "\\sqrt{48} = \\sqrt{16 \\times 3} = 4\\sqrt{3}",
+              "E = 2\\sqrt{3} + 4 \\times 5\\sqrt{3} - 64 \\times 4\\sqrt{3}",
+              "E = 2\\sqrt{3} + 20\\sqrt{3} - 256\\sqrt{3}",
+              "E = (2 + 20 - 256)\\sqrt{3}",
+              "E = -234\\sqrt{3}",
+              "\\text{Calcul de F:}",
+              "F = (3 \\times 5 \\times 2) \\times (\\sqrt{5} \\times \\sqrt{2} \\times \\sqrt{15})",
+              "F = 30 \\times (\\sqrt{5} \\times \\sqrt{2} \\times \\sqrt{15})",
+              "F = 30 \\times \\sqrt{5 \\times 2 \\times 15}",
+              "F = 30 \\times \\sqrt{150}",
+              "F = 30 \\times \\sqrt{25 \\times 6}",
+              "F = 30 \\times (\\sqrt{25} \\times \\sqrt{6})",
+              "F = 30 \\times 5\\sqrt{6}",
+              "F = 150\\sqrt{6}",
+              "\\text{Encadrement de 2 - √3:}",
+              "1,732 < \\sqrt{3} < 1,733",
+              "-1,733 < -\\sqrt{3} < -1,732",
+              "2 - 1,733 < 2 - \\sqrt{3} < 2 - 1,732",
+              "0,267 < 2 - \\sqrt{3} < 0,268",
+              "0,26 < 2 - \\sqrt{3} < 0,27"
+            ]
+          },
+          {
+            "type": "Algèbre",
+            "exercice": "Résoudre chacune des équations suivantes :\n1) (x - 1)(2x + 3) - (x - 1)(5 - 4x) = 0\n2) 81 - 36x² = 0\n3) |x + 2| = 9",
+            "correction": [
+              "\\text{Résolution de l'équation 1:}",
+              "(x - 1)[(2x + 3) - (5 - 4x)] = 0",
+              "(x - 1)(2x + 3 - 5 + 4x) = 0",
+              "(x - 1)(6x - 2) = 0",
+              "x - 1 = 0 \\text{ ou } 6x - 2 = 0",
+              "x = 1 \\text{ ou } 6x = 2",
+              "x = 1 \\text{ ou } x = \\frac{1}{3}",
+              "\\text{Résolution de l'équation 2:}",
+              "81 - 36x^2 = 0",
+              "(9-6x)(9+6x)=0",
+              "9-6x=0 \\text{ ou } 9+6x=0",
+              "6x=9 \\text{ ou } 6x=-9",
+              "x=\\frac{9}{6}=\\frac{3}{2} \\text{ ou } x=\\frac{-9}{6}=\\frac{-3}{2}",
+              "\\text{Résolution de l'équation 3:}",
+              "|x + 2| = 9",
+              "x + 2 = 9 \\text{ ou } x + 2 = -9",
+              "x = 9 - 2 \\text{ ou } x = -9 - 2",
+              "x = 7 \\text{ ou } x = -11"
+            ]
+          }
+         ]
+        }
+      },
+      {
+      "instruction": "Je suis un eleve de la 3eme et je veux un type BEF ",
+      "response": {
+      "sujet": [ 
+        {
+          "type": "Algèbre",
+          "exercice": "On considère les applications f, g et h de R vers R, définies par :\nf(x) = (2x + 1)² - (3x - 5)²\ng(x) = 4x² - 25 - (3x + 1)(5 - 2x) - 20x + 50\nh(x) = 4x² - 20x + 25\n1) Développer, réduire et ordonner suivant les puissances décroissantes de x f(x) et g(x).\n2) Factoriser f(x), g(x) et h(x).\n3) Résoudre dans R :\na. f(x) = 0\nb. g(x) = 0\nc. f(x) = g(x).",
+          "correction": [
+            "\\text{1. Développement et réduction :}",
+            "f(x) = (2x + 1)^2 - (3x - 5)^2",
+            "f(x) = (4x^2 + 4x + 1) - (9x^2 - 30x + 25)",
+            "f(x) = -5x^2 + 34x - 24",
+            "g(x) = 4x^2 - 25 - (3x + 1)(5 - 2x) - 20x + 50",
+            "g(x) = 4x^2 - 25 - (15x - 6x^2 + 5 - 2x) - 20x + 50",
+            "g(x) = 10x^2 - 33x + 20",
+            "\\text{2. Factorisation :}",
+            "f(x) = -5x^2 + 34x - 24 = (6 - x)(5x - 4)",
+            "g(x) = 10x^2 - 33x + 20 = (5 - 2x)(4 - 5x)",
+            "h(x) = 4x^2 - 20x + 25 = (2x - 5)^2",
+            "\\text{3. Résolution des équations :}",
+            "\\text{a. f(x) = 0 :}",
+            "(6 - x)(5x - 4) = 0",
+            "6 - x = 0 \\text{ ou } 5x - 4 = 0",
+            "x = 6 \\text{ ou } x = \\frac{4}{5}",
+            "\\text{b. g(x) = 0 :}",
+            "(5 - 2x)(4 - 5x) = 0",
+            "5 - 2x = 0 \\text{ ou } 4 - 5x = 0",
+            "x = \\frac{5}{2} \\text{ ou } x = \\frac{4}{5}",
+            "\\text{c. f(x) = g(x) :}",
+            "-5x^2 + 34x - 24 = 10x^2 - 33x + 20",
+            "15x^2 - 67x + 44 = 0",
+            "\\Delta = (-67)^2 - 4 \\times 15 \\times 44 = 1849",
+            "\\sqrt{\\Delta} = 43",
+            "x_1 = \\frac{67 - 43}{2 \\times 15} = \\frac{24}{30} = \\frac{4}{5}",
+            "x_2 = \\frac{67 + 43}{2 \\times 15} = \\frac{110}{30} = \\frac{11}{3}"
+          ]
+        },
+        {
+          "type": "Géométrie",
+          "exercice": "Le plan est muni d'un repère orthonormé (O, i, j). Les points A, B et C sont tels que : OA = 2i + 2j, OB = 2i + 4j, OC = -2i + 4j. 1) Déterminer les coordonnées des points A, B et C. 2) Placer les points A, B et C dans le repère. 3) Calculer les couples de coordonnées des vecteurs AB, BC et AC. 4) Déterminer les coordonnées du point I milieu du segment [AC]. 5) Déterminer les coordonnées du point D symétrique au point B par rapport à I. 6) Calculer les distances AB, BC et AC. 7) Quelle est la nature du quadrilatère ABCD ?",
+          "correction": [
+            "\\text{1. Coordonnées des points :}",
+            "A(2, 2)",
+            "B(2, 4)",
+            "C(-2, 4)",
+            "\\text{2. Placement des points : (Voir le graphique fourni)}",
+            "\\text{3. Coordonnées des vecteurs :}",
+            "\\overrightarrow{AB} = \\begin{pmatrix} 0 \\\\ 2 \\end{pmatrix}",
+            "\\overrightarrow{BC} = \\begin{pmatrix} -4 \\\\ 0 \\end{pmatrix}",
+            "\\overrightarrow{AC} = \\begin{pmatrix} -4 \\\\ 2 \\end{pmatrix}",
+            "\\text{4. Coordonnées du milieu I de [AC] :}",
+            "I(0, 3)",
+            "\\text{5. Coordonnées du symétrique D de B par rapport à I :}",
+            "\\text{I est le milieu de [BD] :}",
+            "x_D = 2x_I - x_B = 2(0) - 2 = -2",
+            "y_D = 2y_I - y_B = 2(3) - 4 = 2",
+            "D(-2, 2)",
+            "\\text{6. Calcul des distances :}",
+            "AB = \\sqrt{(2 - 2)^2 + (4 - 2)^2} = \\sqrt{4} = 2",
+            "BC = \\sqrt{(-2 - 2)^2 + (4 - 4)^2} = \\sqrt{16} = 4",
+            "AC = \\sqrt{(-2 - 2)^2 + (4 - 2)^2} = \\sqrt{20} = 2\\sqrt{5}",
+            "\\text{7. Nature du quadrilatère ABCD :}",
+            "\\text{ABCD est un rectangle.}",
+            "\\text{Preuve : AD = }\\sqrt{(-2-2)^2+(2-2)^2} = 4 \\text{ et BD = }\\sqrt{(-2-2)^2+(2-4)^2} = \\sqrt{16+4} = \\sqrt{20} = 2\\sqrt{5}. \\text{Comme AD = BC et AB = CD et que les vecteurs AB et BC sont orthogonaux, ABCD est un rectangle.}"
+          ]
+        }
+      ] 
+    }
+  },
+  {
+   "instruction": "Je suis tchadien et je souhaite que tu me genere un sujet de type BEF avec la correction",
+      "response": {
+       "sujet": [ 
+        {
+          "type" :"Algebre",
+          "exercice": "On donne les nombres A = (√2 - √5)² et B = √250 - √490 + 2√81. 1) Écrire A et B sous la forme a + b√c, où a et b sont des entiers relatifs et c un entier naturel. 2) En déduire que A - B est un nombre entier relatif.",
+          "correction": [
+            "\\text{1. Forme a + b√c :}",
+            "A = (\\sqrt{2} - \\sqrt{5})^2 = (\\sqrt{2})^2 - 2(\\sqrt{2})(\\sqrt{5}) + (\\sqrt{5})^2 = 2 - 2\\sqrt{10} + 5 = 7 - 2\\sqrt{10}",
+            "B = \\sqrt{250} - \\sqrt{490} + 2\\sqrt{81} = \\sqrt{25 \\times 10} - \\sqrt{49 \\times 10} + 2 \\times 9 = 5\\sqrt{10} - 7\\sqrt{10} + 18 = 18 - 2\\sqrt{10}",
+            "\\text{2. A - B :}",
+            "A - B = (7 - 2\\sqrt{10}) - (18 - 2\\sqrt{10}) = 7 - 2\\sqrt{10} - 18 + 2\\sqrt{10} = -11"
+          ]
+        },
+        {
+          "type" :"Probléme",
+          "exercice": "Aminata a acheté 30 kilogrammes d'un mélange de viande de bœuf sans os et de viande de bœuf avec os. Les 30 kilogrammes ont coûté 41400 F sachant qu'un kilogramme de viande de bœuf sans os coûte 1500 F et qu'un kilogramme de viande de bœuf avec os coûte 1300 F. Calculer le nombre de kilogrammes de viande de chaque espèce.",
+          "correction": [
+            "\\text{Soit x le nombre de kg de viande sans os et y le nombre de kg de viande avec os.}",
+            "\\text{Système d'équations :}",
+            "x + y = 30",
+            "1500x + 1300y = 41400",
+            "\\text{Résolution par substitution : y = 30 - x}",
+            "1500x + 1300(30 - x) = 41400",
+            "1500x + 39000 - 1300x = 41400",
+            "200x = 2400",
+            "x = \\frac{2400}{200} = 12",
+            "y = 30 - 12 = 18",
+            "\\text{Aminata a acheté 12 kg de viande sans os et 18 kg de viande avec os.}"
+          ]
+        },
+        {
+            "type": "Algèbre",
+              "exercice": "Soit A(x) = 9x² - 42x + 49 - 2(3x - 7)(x + 2). 1) Développer, réduire et ordonner A(x). 2) Factoriser A(x).",
+              "correction": [
+                "\\text{1. Développement, réduction et ordonnancement :}",
+                "A(x) = 9x² - 42x + 49 - 2(3x² + 6x - 7x - 14)",
+                "A(x) = 9x² - 42x + 49 - 2(3x² - x - 14)",
+                "A(x) = 9x² - 42x + 49 - 6x² + 2x + 28",
+                "A(x) = 3x² - 40x + 77",
+                "\\text{2. Factorisation :}",
+                "3x² - 33x - 7x + 77",
+                "3x(x - 11) - 7(x - 11)",
+                "A(x) = (3x - 7)(x - 11)"
+              ]
+            },
+           {
+             "type": "Géométrie",
+              "exercice": "Le plan est muni du repère (O, I, J). 1) Construire la droite (D) passant par le point A(0 ; 2) et de vecteur directeur MN(-2 ; 2). 2) Les points H(1 ; -1/2) et K(4 ; -4) appartiennent-ils à (D) ?",
+              "correction": [
+                "\\text{1. Construction de la droite (D) :}",
+                "\\text{La droite (D) passe par A(0 ; 2) et a pour vecteur directeur MN(-2 ; 2).}",
+                "\\text{Équation de la droite (D) : } y = x + 2",
+                "\\text{2. Appartenance des points H et K à (D) :}",
+                "\\text{Point H(1 ; -1/2) : Si x = 1, alors y = 1 + 2 = 3. Or, y_H = -\\frac{1}{2}. Donc H \\notin (D).}",
+                "\\text{Point K(4 ; -4) : Si x = 4, alors y = 4 + 2 = 6. Or, y_K = -4. Donc K \\notin (D).}"
+              ]
+            },
+            {
+              "type": "Géométrie",
+              "exercice": "Le plan est muni d'un repère (O, I, J). On donne les points A(-2), B(3) et C(7). 1) Calculer les distances : AB, BC et AC. 2) Déterminer la nature du triangle ABC.",
+              "correction": [
+                "\\text{1. Calcul des distances (sur une droite numérique) :}",
+                "AB = |3 - (-2)| = 5",
+                "BC = |7 - 3| = 4",
+                "AC = |7 - (-2)| = 9",
+                "\\text{2. Nature du triangle ABC :}",
+                "\\text{Les points sont alignés. AC = AB + BC.}"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "instruction": "Crée un sujet BEF complet pour les mathématiques de niveau 3ème avec seulement 2 exercices variés avec leurs corrections.",
+        "response": {
+        "sujet": [
+        {
+          "type": "Algèbre",
+              "exercice": "Soit f(x) = (x + 1)(2x - 3) - (x + 1)(x + 3), G(x) = (x - 6)(5x - 1) + 2x - 12. 1) Développer, réduire et ordonner f(x) et g(x). 2) Factoriser f(x) et g(x). 3) Soit la fonction h définie par H(x) = f(x) / g(x) a) Définir l'ensemble de définition. b) Simplifier h(x) dans son domaine de définition. c) Résoudre h(x) = 0 et h(x) = 1",
+              "correction": [
+                "\\text{1. Développement, réduction et ordonnancement :}",
+                "f(x) = (2x² - 3x + 2x - 3) - (x² + 3x + x + 3)",
+                "f(x) = 2x² - x - 3 - x² - 4x - 3",
+                "f(x) = x² - 5x - 6",
+                "g(x) = (5x² - x - 30x + 6) + 2x - 12",
+                "g(x) = 5x² - 31x + 6 + 2x - 12",
+                "g(x) = 5x² - 29x - 6",
+                "\\text{2. Factorisation :}",
+                "f(x) = (x - 6)(x + 1)",
+                "g(x) = 5x² - 30x + x - 6",
+                "g(x) = 5x(x - 6) + 1(x - 6)",
+                "g(x) = (5x + 1)(x - 6)",
+                "\\text{3. Fonction h(x) :}",
+                "\\text{a) Ensemble de définition :}",
+                "h(x) = \\frac{(x - 6)(x + 1)}{(5x + 1)(x - 6)}",
+                "5x + 1 = 0 \\Rightarrow x = -\\frac{1}{5}",
+                "x - 6 = 0 \\Rightarrow x = 6",
+                "\\text{Domaine de définition : } \\mathbb{R} \\setminus \\{-\\frac{1}{5} ; 6\\}",
+                "\\text{b) Simplification de h(x) :}",
+                "h(x) = \\frac{x + 1}{5x + 1}",
+                "\\text{c) Résolution :}",
+                "\\text{h(x) = 0 :}",
+                "\\frac{x + 1}{5x + 1} = 0",
+                "x + 1 = 0",
+                "x = -1",
+                "\\text{h(x) = 1 :}",
+                "\\frac{x + 1}{5x + 1} = 1",
+                "x + 1 = 5x + 1",
+                "-4x = 0",
+                "x = 0"
+              ]
+            },
+            {
+                "type": "Géométrie",
+                  "exercice": "On donne dans le plan muni d'un repère orthonormé (O, i, j), les points A, B et D tels que : OA = 4i + 3j ; OB = -3i + 4j ; OD = i + 7j. 1) Donner les coordonnées de A, B et D. 2) Calculer les coordonnées du point I milieu du segment [AB]. 3) Calculer les coordonnées du point C image de D par la symétrie de centre I. 4) Que peut-on dire du point O et C ? 5) Calculer les distances OA, OB et AB. 6) Montrer que OAB est un triangle isocèle-rectangle en un point que vous préciserez. 7) Donner avec précision la nature de la figure OABD. Faire un graphique plus détaillé.",
+                  "correction": [
+                    "\\text{1. Coordonnées des points :}",
+                    "A(4 ; 3)",
+                    "B(-3 ; 4)",
+                    "D(1 ; 7)",
+                    "\\text{2. Coordonnées du milieu I de [AB] :}",
+                    "x_I = \\frac{4 + (-3)}{2} = \\frac{1}{2}",
+                    "y_I = \\frac{3 + 4}{2} = \\frac{7}{2}",
+                    "I(\\frac{1}{2} ; \\frac{7}{2})",
+                    "\\text{3. Coordonnées du point C, image de D par la symétrie de centre I :}",
+                    "x_C = 2 \\times \\frac{1}{2} - 1 = 0",
+                    "y_C = 2 \\times \\frac{7}{2} - 7 = 0",
+                    "C(0 ; 0)",
+                    "\\text{4. Nature des points O et C :}",
+                    "\\text{Les points O et C sont confondus.}",
+                    "\\text{5. Calcul des distances :}",
+                    "OA = \\sqrt{4^2 + 3^2} = 5",
+                    "OB = \\sqrt{(-3)^2 + 4^2} = 5",
+                    "AB = \\sqrt{(4 - (-3))^2 + (3 - 4)^2} = \\sqrt{50} = 5\\sqrt{2}",
+                    "\\text{6. Nature du triangle OAB :}",
+                    "\\text{OA = OB, donc OAB est isocèle en O.}",
+                    "\\text{AB² = 50 et OA² + OB² = 50. Donc OAB est rectangle en O.}",
+                    "\\text{OAB est isocèle-rectangle en O.}",
+                    "\\text{7. Nature de la figure OABD :}",
+                    "\\text{OABD est un carré.}"
+                  ]
+            }
+          ]
+        }
+      },
+      {
+        "instruction": "Crée un sujet BEF complet pour les mathématiques de niveau 3ème avec des exercices variés.",
+          "response": {
+          "sujet": [
+            {
+                  "type": "Algèbre",
+                  "exercice": "1) Calculer A = √27 - √3 - √12 - √2 × √8 + √75/√3 2) Rendre rationnel le dénominateur des quotients suivants : 1/√3, 3/√5, (√5 - √2)/(√5 + √2)",
+                  "correction": [
+                    "\\text{1. Calcul de A :}",
+                    "A = \\sqrt{27} - \\sqrt{3} - \\sqrt{12} - \\sqrt{2} \\times \\sqrt{8} + \\frac{\\sqrt{75}}{\\sqrt{3}}",
+                    "A = 3\\sqrt{3} - \\sqrt{3} - 2\\sqrt{3} - 4 + 5",
+                    "A = 1",
+                    "\\text{2. Rationalisation des dénominateurs :}",
+                    "\\frac{1}{\\sqrt{3}} = \\frac{\\sqrt{3}}{3}",
+                    "\\frac{3}{\\sqrt{5}} = \\frac{3\\sqrt{5}}{5}",
+                    "\\frac{\\sqrt{5} - \\sqrt{2}}{\\sqrt{5} + \\sqrt{2}} = \\frac{7 - 2\\sqrt{10}}{3}"
+                  ]
+                },
+                {
+                  "type" :"Algebre",
+                  "exercice": "On considère l'application de ℝ définie par : f(x) = (2x + 1)² - (3 - x)² 1) Développer, réduire et ordonner f(x) suivant les puissances décroissantes de x. 2) Factoriser f(x). 3) On donne g(x) = f(x) / [(3x - 2)(2x + 3)] a) Déterminer le domaine de définition D<sub>g</sub>. b) Simplifier g(x). c) Résoudre dans ℝ g(x) = 1. d) Calculer g(√2). Écrire g(√2) sans radical au dénominateur. e) Sachant que 1,414 < √2 < 1,415 ; déterminez un encadrement de g(√2) par deux nombres décimaux d'ordre 3. En déduire la valeur approchée à 10⁻¹ près par défaut de g(√2).",
+                  "correction": [
+                    "\\text{1. Développement, réduction et ordonnancement de f(x) :}",
+                    "f(x) = 3x² + 10x - 8",
+                    "\\text{2. Factorisation de f(x) :}",
+                    "f(x) = (3x - 2)(x + 4)",
+                    "\\text{3. Fonction g(x) :}",
+                    "\\text{a) Domaine de définition D<sub>g</sub> :}",
+                    "D_g = \\mathbb{R} \\setminus \\{-\\frac{3}{2} ; \\frac{2}{3}\\}",
+                    "\\text{b) Simplification de g(x) :}",
+                    "g(x) = \\frac{x + 4}{2x + 3}",
+                    "\\text{c) Résolution de g(x) = 1 :}",
+                    "x = 1",
+                    "\\text{d) Calcul de g(√2) et rationalisation :}",
+                    "g(\\sqrt{2}) = \\frac{\\sqrt{2} + 4}{2\\sqrt{2} + 3}",
+                    "g(\\sqrt{2}) = \\frac{(\\sqrt{2} + 4)(2\\sqrt{2} - 3)}{(2\\sqrt{2} + 3)(2\\sqrt{2} - 3)}",
+                    "g(\\sqrt{2}) = \\frac{4 - 3\\sqrt{2} + 8\\sqrt{2} - 12}{8 - 9}",
+                    "g(\\sqrt{2}) = 8 - 5\\sqrt{2}",
+                    "\\text{e) Encadrement de g(√2) et valeur approchée :}",
+                    "1,414 < \\sqrt{2} < 1,415",
+                    "7,070 < 5\\sqrt{2} < 7,075",
+                    "-7,075 < -5\\sqrt{2} < -7,070",
+                    "0,925 < 8 - 5\\sqrt{2} < 0,930",
+                    "\\text{Valeur approchée par défaut à 10⁻¹ : 0,9}"
+                  ]
+                },
+                {
+                     "type": "Géométrie",
+                      "exercice": "Dans un plan muni d'un repère orthonormé (O, i, j), on considère les points A(-3 ; 3), B(0 ; 5) et C(6 ; -4). 1) Placer les points A, B et C dans le repère. 2) Déterminer les composantes des vecteurs AB, BC et AC. 3) Calculer les distances AB, BC et AC. 4) En déduire la nature du triangle ABC. 5) Déterminer les coordonnées du point E milieu du segment [AC].",
+                      "correction": [
+                        "\\text{1. Placement des points :}",
+                        "\\text{(Cette partie est visuelle et nécessite un graphique.)}",
+                        "\\text{2. Composantes des vecteurs :}",
+                        "\\overrightarrow{AB} = (3 ; 2)",
+                        "\\overrightarrow{BC} = (6 ; -9)",
+                        "\\overrightarrow{AC} = (9 ; -7)",
+                        "\\text{3. Calcul des distances :}",
+                        "AB = \\sqrt{13}",
+                        "BC = 3\\sqrt{13}",
+                        "AC = \\sqrt{130}",
+                        "\\text{4. Nature du triangle ABC :}",
+                        "\\text{Les points A, B et C sont alignés. Il ne s'agit pas d'un triangle.}",
+                        "\\text{5. Coordonnées du point E milieu de [AC] :}",
+                        "x_E = \\frac{-3 + 6}{2} = \\frac{3}{2}",
+                        "y_E = \\frac{3 + (-4)}{2} = -\\frac{1}{2}",
+                        "E(\\frac{3}{2} ; -\\frac{1}{2})"
+                      ]
+                    }
+           ]
+        }
+      },
+      {
+        "instruction": "Génère un sujet type BEF tchadien",
+          "response": {
+          "sujet": [
+            {
+                "type": "Problème",
+                  "exercice": "Dans une basse-cour, il y a uniquement des poulets et des lapins. On compte 45 têtes et 140 pattes. Quel est le nombre de bêtes de chaque espèce ?",
+                  "correction": [
+                    "\\text{Soit p le nombre de poulets et l le nombre de lapins.}",
+                    "p + l = 45",
+                    "2p + 4l = 140",
+                    "\\text{Résolution : }",
+                    "2l = 50 \\Rightarrow l = 25",
+                    "p + 25 = 45 \\Rightarrow p = 20",
+                    "\\text{Il y a 20 poulets et 25 lapins.}"
+                  ]
+            },
+            {
+              "type": "Algèbre",
+               "exercice": "On donne les fonctions f et g définies par : f(x) = (3x-2)(2x+1) - (3x-2)² g(x) = 4x² + 12x + 9 + (2x+3)(x-5) 1. Développer, réduire et ordonner f et g suivant les puissances décroissantes de x. 2. Factoriser f et g. 3. Soit la fonction h définie par : h(x) = f(x) / g(x) a) Donner le domaine de définition de h. b) Simplifier h. c) Calculer la valeur numérique de h pour x = 0 et x = 1.",
+              "correction": [
+                    "\\text{1. Développement, réduction et ordonnancement :}",
+                    "f(x) = -3x² + 11x - 6",
+                    "g(x) = 6x² + 5x - 6",
+                    "\\text{2. Factorisation :}",
+                    "f(x) = -(3x - 2)(x - 3)",
+                    "g(x) = (2x + 3)(3x - 2)",
+                    "\\text{3. Fonction h(x) :}",
+                    "\\text{a) Domaine de définition :}",
+                    "\\mathbb{R} \\setminus \\{-\\frac{3}{2} ; \\frac{2}{3}\\}",
+                    "\\text{b) Simplification :}",
+                    "h(x) = \\frac{3 - x}{2x + 3}",
+                    "\\text{c) Valeur numérique :}",
+                    "h(0) = 1",
+                    "h(1) = \\frac{2}{5}"
+                  ]
+            },
+            {
+                 "type": "Géométrie",
+                  "exercice": "Le plan est muni d'un repère (O, i, j). On donne A(0 ; 4), B(-4 ; 2), et C(-3 ; -2). 1. Calculer le couple de coordonnées du point M milieu du segment [AC]. 2. Calculer le couple de coordonnées du point D, image du point B par la symétrie de centre M. 3. Quelle est la nature du quadrilatère ABCD ?",
+                  "correction": [
+                    "\\text{1. Coordonnées de M :}",
+                    "x_M = \\frac{0 + (-3)}{2} = -\\frac{3}{2}",
+                    "y_M = \\frac{4 + (-2)}{2} = 1",
+                    "M(-\\frac{3}{2} ; 1)",
+                    "\\text{2. Coordonnées de D :}",
+                    "x_D = 1",
+                    "y_D = 0",
+                    "D(1 ; 0)",
+                    "\\text{3. Nature du quadrilatère ABCD :}",
+                    "\\text{Calcul des distances :}",
+                    "AB = \\sqrt{20} = 2\\sqrt{5}",
+                    "BC = \\sqrt{17}",
+                    "CD = \\sqrt{20} = 2\\sqrt{5}",
+                    "AD = \\sqrt{17}",
+                     "\\text{Calcul du produit scalaire des vecteurs AB et BC :}",
+                    "\\overrightarrow{AB}(-4;-2)",
+                     "\\overrightarrow{BC}(1;-4)",
+                    "\\overrightarrow{AB}.\\overrightarrow{BC} = (-4\\times1)+(-2\\times-4) = 4 \\neq 0",
+                    "\\text{ABCD est un parallélogramme (côtés opposés égaux).}",
+                    "\\text{ABCD n'est pas un rectangle (produit scalaire non nul).}"
+                  ]
+            }
+          ]
+        }
+      },
+      {
+        "instruction": "Génère un sujet type BEF avec la correction biensur",
+          "response": {
+          "sujet": [
+            {
+                 "type": "Algèbre",
+                  "exercice": "Soient A = √5 + 3 et B = √5 - 3. 1. Calculer A², B² et A × B. 2. Démontrer que A/B + B/A soit un entier relatif.",
+                  "correction": [
+                    "\\text{1. Calculs :}",
+                    "A^2 = 14 + 6\\sqrt{5}",
+                    "B^2 = 14 - 6\\sqrt{5}",
+                    "A \\times B = -4",
+                    "\\text{2. Démonstration :}",
+                    "\\frac{A}{B} + \\frac{B}{A} = \\frac{A^2 + B^2}{A \\times B} = \\frac{28}{-4} = -7"
+                  ]
+                },
+                {
+                  "type": "Algèbre",
+                  "exercice": "On considère les applications définies dans ℝ par : P(x) = (3x + 2)² - (2x - 3)² ; Q(x) = (5x - 1)² + (1 - 5x)(2x + 3). 1. Factoriser P(x) et Q(x). 2. Développer, réduire et ordonner P(x). 3. Soit T(x) = Q(x) / P(x) a) Simplifier T(x) et donner son ensemble de définition. b) Calculer T(√2). 4) Résoudre T(x) = 0",
+                  "correction": [
+                    "\\text{1. Factorisation :}",
+                    "P(x) = (5x - 1)(x + 5)",
+                    "Q(x) = (5x - 1)(3x - 4)",
+                    "\\text{2. Développement :}",
+                    "P(x) = 5x^2 + 24x - 5",
+                    "\\text{3. Fonction T(x) :}",
+                    "\\text{a) Simplification et ensemble de définition :}",
+                    "T(x) = \\frac{3x - 4}{x + 5}, \\text{ pour } x \\in \\mathbb{R} \\setminus \\{-5; \\frac{1}{5}\\}",
+                    "\\text{b) Calcul de T(√2) :}",
+                    "T(\\sqrt{2}) = \\frac{19\\sqrt{2} - 26}{23}",
+                    "\\text{4. Résolution de T(x) = 0 :}",
+                    "x = \\frac{4}{3}"
+                  ]
+                },
+                {
+                      "type": "Géométrie",
+                      "exercice": "Le plan est muni du repère orthonormé (O, i, j). On donne A(-3 ; 3), B(0 ; 5) et C(6 ; -4). 1. Placer les points A, B et C. 2. Déterminer les composantes des vecteurs AB, BC et AC. 3. Calculer les distances AB, BC et AC. 4. En déduire la nature du triangle ABC. 5. Déterminer les coordonnées du point I milieu du segment [AC]. 6. Soit (Δ) la droite passant par B et I, donner une équation de (Δ). 7. Donner une équation de la droite (Δ') passant par C et de vecteur directeur AB. 8. Soit K le point d'intersection de (Δ) et (Δ'), trouver les coordonnées de K.",
+                      "correction": [
+                        "\\text{1. Placement des points : (Nécessite un graphique)}",
+                        "\\text{2. Composantes des vecteurs :}",
+                        "\\overrightarrow{AB} = (3 ; 2)",
+                        "\\overrightarrow{BC} = (6 ; -9)",
+                        "\\overrightarrow{AC} = (9 ; -7)",
+                        "\\text{3. Calcul des distances :}",
+                        "AB = \\sqrt{13}",
+                        "BC = 3\\sqrt{13}",
+                        "AC = \\sqrt{130}",
+                        "\\text{4. Nature du triangle ABC :}",
+                        "\\text{Rectangle en B (d'après le théorème de Pythagore)}",
+                        "\\text{5. Coordonnées de I :}",
+                        "I(\\frac{3}{2} ; -\\frac{1}{2})",
+                        "\\text{6. Équation de (Δ) (avec le produit scalaire ou déterminant) :}",
+                        "\\text{Soit M(x;y) un point de (\\Delta).}\\text{On a }\\overrightarrow{BM}(x;y-5) \\text{ et } \\overrightarrow{BI}(\\frac{3}{2};\\frac{-11}{2})",
+                        "\\text{En utilisant le déterminant nul :}",
+                        "x(-\\frac{11}{2}) - (y-5)(\\frac{3}{2}) = 0",
+                         "\\text{ou encore 11x + 3y - 15 = 0}",
+                        "\\text{7. Équation de (Δ') :}",
+                        "2x - 3y - 24 = 0",
+                        "\\text{8. Coordonnées de K :}",
+                        "K(3 ; -6)"
+                      ]
+                }
+            ]
+          }
+      },
+      {
+        "instruction": "Génère un sujet type BEF(Brevet d'Études Fondamentales) tchadien avec leurs corrections",
+          "response": {
+          "sujet": [
+            {
+                 "type": "Algèbre",
+                  "exercice": "On donne : a = √27 - √3 - √12 - √2 × √8 + √75/√3. 1. Calculer a. 2. Rendre rationnel le dénominateur de chacun des quotients suivants : 1/√3 ; 3/√5 ; (√5 - √2)/(√5 + √2)",
+                  "correction": [
+                    "\\text{1. Calcul de a :}",
+                    "a = 1",
+                    "\\text{2. Rationalisation des dénominateurs :}",
+                    "\\frac{1}{\\sqrt{3}} = \\frac{\\sqrt{3}}{3}",
+                    "\\frac{3}{\\sqrt{5}} = \\frac{3\\sqrt{5}}{5}",
+                    "\\frac{\\sqrt{5} - \\sqrt{2}}{\\sqrt{5} + \\sqrt{2}} = \\frac{7 - 2\\sqrt{10}}{3}"
+                  ]
+                },
+                {
+                  "type": "Algèbre",
+                  "exercice": "On considère l'application de ℝ définie par : f(x) = (2x + 1)² - (3 - x)². 1. Développer, réduire et ordonner f(x). 2. Factoriser f(x). 3. On donne g(x) = f(x)/[(3x - 2)(2x + 3)] a) Déterminer le domaine de définition Dg. b) Simplifier g(x). c) Résoudre dans ℝ, g(x) = 1",
+                  "correction": [
+                    "\\text{1. Développement, réduction et ordonnancement de f(x) :}",
+                    "f(x) = 3x^2 + 10x - 8",
+                    "\\text{2. Factorisation de f(x) :}",
+                    "f(x) = (3x - 2)(x + 4)",
+                    "\\text{3. Fonction g(x) :}",
+                    "\\text{a) Domaine de définition Dg :}",
+                    "Dg = \\mathbb{R} \\setminus \\{-\\frac{3}{2} ; \\frac{2}{3}\\}",
+                    "\\text{b) Simplification de g(x) :}",
+                    "g(x) = \\frac{x + 4}{2x + 3}",
+                    "\\text{c) Résolution de g(x) = 1 :}",
+                    "x = 1"
+                  ]
+                },
+                {
+                     "type": "Géométrie",
+                      "exercice": "L'unité utilisée est le centimètre. On considère un plan rapporté à un repère (O, i, j). 1. Placer les points A(-2 ; -3), B(-4 ; 4), C(3 ; 6). 2. Calculer les coordonnées des vecteurs AB et BC. Montrer que ces vecteurs sont orthogonaux. 3. Calculer la distance AB puis BC. 4. Soit I le milieu du segment [AC]. Déterminer les coordonnées de I. 5. Soit D le symétrique de B par rapport à I. Déterminer les coordonnées de D. 6. Quelle est la nature du quadrilatère ABCD ? Justifier.",
+                      "correction": [
+                        "\\text{1. Placement des points : (Nécessite un graphique)}",
+                        "\\text{2. Coordonnées des vecteurs et orthogonalité :}",
+                        "\\overrightarrow{AB} = (-2 ; 7)",
+                        "\\overrightarrow{BC} = (7 ; 2)",
+                        "\\overrightarrow{AB} \\cdot \\overrightarrow{BC} = 0 \\Rightarrow \\text{ AB et BC sont orthogonaux.}",
+                        "\\text{3. Calcul des distances :}",
+                        "AB = \\sqrt{53} \\text{ cm}",
+                        "BC = \\sqrt{53} \\text{ cm}",
+                        "\\text{4. Coordonnées de I :}",
+                        "I(\\frac{1}{2} ; \\frac{3}{2})",
+                        "\\text{5. Coordonnées de D :}",
+                        "D(5 ; -1)",
+                        "\\text{6. Nature du quadrilatère ABCD :}",
+                        "\\text{ABCD est un carré car ses diagonales se coupent en leur milieu, sont de même longueur et deux côtés consécutifs sont perpendiculaires.}"
+                      ]
+                }
+          ]
+        }
+      },
+      {
+        "instruction": "Génère moi juste un exercice de géométrie avec sa correction",
+          "response": {
+          "sujet": [
+            {
+                 "type": "Géométrie",
+                  "exercice": "Dans un repère (O, I, J), on considère les points : A(-2 ; 4), B(2 ; 3) et D(-1 ; -3). 1. Calculer les coordonnées du point C symétrique de A par rapport à B. 2. Calculer les coordonnées du point E pour que B soit le milieu de [DE]. 3. Quelle est la nature du quadrilatère AECD ? Justifier. 4. Calculer les distances AE, DC, AC et ED.",
+                  "correction": [
+                    "\\text{1. Coordonnées de C :}",
+                    "C(6 ; 2)",
+                    "\\text{2. Coordonnées de E :}",
+                    "E(5 ; 9)",
+                    "\\text{3. Nature du quadrilatère AECD :}",
+                    "\\text{AECD est un parallélogramme car ses diagonales [AC] et [DE] se coupent en leur milieu B.}",
+                    "\\text{4. Calcul des distances :}",
+                    "AE = \\sqrt{74}",
+                    "DC = \\sqrt{74}",
+                    "AC = \\sqrt{68} = 2\\sqrt{17}",
+                    "ED = \\sqrt{180} = 6\\sqrt{5}"
+                  ]
+            }
+          ]
+        }
+      }
+]
